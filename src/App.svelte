@@ -15,7 +15,7 @@
 	<!-- <h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
-	<div class="chart-container" style="height:80vh;">
+	<!-- <div class="chart-container" style="height:80vh;">
 		<LayerCake
 			{data}
 		>
@@ -26,16 +26,21 @@
 					/>
 			</Svg>
 		</LayerCake>
-	</div>
+	</div> -->
+	<Sankey
+	data={data}
+	colorNodes={d => '#00bbff'}
+	colorLinks={d => '#00bbff35'}
+	layout='col'
+/>
+
 </main>
 
 <style>
-	#mapid {
-	 top: 50px;
-	 left: 150px;
-	 width: 80vw;
-	 height: 600px;
-	  }
+	:global(.graphic) {
+		height:500vh;
+		margin-bottom:3rem;
+	}
 	/* main {
 		text-align: center;
 		padding: 1em;
