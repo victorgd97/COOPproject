@@ -77,6 +77,20 @@ sidebarObj.on('content', function(e) {
     // e.id contains the id of the opened panel
 })
 
+function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.popupContent) {
+		sidebarObj.open('userinfo'),
+        layer.bindPopup(feature.properties.popupContent);
+    }
+}
+
+
+
+L.geoJSON(geojsonFeature, {
+    onEachFeature: onEachFeature
+}).addTo(mymap);
+
 mymap.on('click', onMapClick);
 
 export default app;

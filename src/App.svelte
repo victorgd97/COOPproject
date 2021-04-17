@@ -5,27 +5,15 @@
 
 	// import data from './data/data.js';
 
-	import data from './data-processing/sankey/output/data_ods.json'
+	//	import data from './data-processing/sankey/output/data_ods.json'
 
-	console.log(data['2015']);
 </script>
 
 <main>
 	<!-- <h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
-	<div class="chart-container" style="height:80vh;">
-		<LayerCake
-			data = {data['2015']}
-		>
-			<Svg>
-			<Sankey
-						colorNodes={d => '#00bbff'}
-				colorLinks={d => '#00bbff35'}
-					/>
-			</Svg>
-		</LayerCake>
-	</div>
+
 	<div id="mapid"></div>
 </main>
 
@@ -62,8 +50,5 @@
 		The point being it needs dimensions since the <LayerCake> element will
 		expand to fill it.
 	*/
-	.chart-container {
-    width: 80%;
-    height: 80%;
-  }
+
 </style>
