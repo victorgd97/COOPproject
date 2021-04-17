@@ -3,11 +3,7 @@
 
 	import Sankey from './components/Sankey.svelte';
 
-	import data from './data/data.js';
-
-	import data2 from './data/data.json'
-
-	console.log(data2)
+	import data from './data/data.json'
 
 </script>
 
@@ -28,7 +24,7 @@
 		</LayerCake>
 	</div> -->
 	<Sankey
-	data={data}
+	data={data["2017"]}
 	colorNodes={d => '#00bbff'}
 	colorLinks={d => '#00bbff35'}
 	layout='col'
@@ -38,7 +34,7 @@
 
 <style>
 	:global(.graphic) {
-		height:500vh;
+		height:200vh;
 		margin-bottom:3rem;
 	}
 	/* main {

@@ -21,7 +21,6 @@
 	const margin = { top: 10, right: 10, bottom: 25, left: 25 };
 	let datum;
 
-	console.log(width);
 	$: sankey = Sankey.sankey()
 		.nodeAlign(nodeAlign)
 		.nodeWidth(nodeWidth)
@@ -40,7 +39,6 @@
         const mX = (m.offsetX) ? m.offsetX : m.clientX;
         const mY = (m.offsetY) ? m.offsetY : m.clientY;
         datum = undefined;
-		console.log(sankeyData);
 	}
 
 	const leave = (m) => {
