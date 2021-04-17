@@ -5,8 +5,6 @@
 
 	import data from './data/data.js';
 
-	import Mapy from "./Map.svelte";
-
 </script>
 
 <main>
@@ -25,10 +23,14 @@
 			</Svg>
 		</LayerCake>
 	</div>
-	<Mapy/>
+	<div id="mapid"></div>
 </main>
 
 <style>
+	#mapid {
+	 width: 100vw;
+	 height: 600px;
+	  }
 	/* main {
 		text-align: center;
 		padding: 1em;
