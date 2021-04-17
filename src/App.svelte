@@ -3,10 +3,13 @@
 
 	import Sankey from './components/Sankey.svelte';
 
-	import data from './data/data.js';
+	// import data from './data/data.js';
 
 	import Mapy from "./Map.svelte";
 
+	import data from './data-processing/sankey/output/data_ods.json'
+
+	console.log(data['2015']);
 </script>
 
 <main>
@@ -15,7 +18,7 @@
 
 	<div class="chart-container" style="height:80vh;">
 		<LayerCake
-			{data}
+			data = {data['2015']}
 		>
 			<Svg>
 			<Sankey

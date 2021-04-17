@@ -29,7 +29,7 @@
 
 	$: link = Sankey.sankeyLinkHorizontal();
 
-	$: fontSize = $width <= 320 ? 8 : 12;
+    $: fontSize = $width <= 320 ? 8 : 12;
 </script>
 
 <style>
