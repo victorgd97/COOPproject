@@ -25,7 +25,7 @@
 			</Svg>
 		</LayerCake>
 	</div>
-	<div id="mapid"></div>
+	<!-- <div id="mapid"></div> -->
 </main>
 
 <style>

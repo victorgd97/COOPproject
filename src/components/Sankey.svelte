@@ -11,9 +11,10 @@
 	export let colorNodes = d => '#333';
 	export let colorText = d => '#263238';
 
-	export let nodeWidth = 5;
+	export let nodeWidth = 10;
 	export let nodePadding = 10;
-	export let linkSort = null;
+    export let linkSort = null;
+    export let nodeSort = null;
 	export let nodeId = d => d.id;
 	export let nodeAlign = Sankey.sankeyLeft;
 
@@ -23,7 +24,8 @@
 		.nodePadding(nodePadding)
 		.nodeId(nodeId)
 		.size([$width, $height])
-		.linkSort(linkSort);
+        .linkSort(linkSort)
+        .nodeSort(nodeSort); //creates sankey nodes as ordered in the data
 
 	$: sankeyData = sankey($data);
 
