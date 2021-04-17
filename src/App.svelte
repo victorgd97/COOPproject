@@ -5,6 +5,8 @@
 
 	import data from './data/data.js';
 
+	import Mapy from "./Map.svelte";
+
 </script>
 
 <main>
@@ -23,7 +25,7 @@
 			</Svg>
 		</LayerCake>
 	</div>
-  
+	<Mapy/>
 </main>
 
 <style>
