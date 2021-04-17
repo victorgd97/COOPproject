@@ -5,7 +5,9 @@
 
 	import data from './data/data.js';
 
-	// import data from './data/data.json'
+	import data2 from './data/data.json'
+
+	console.log(data2)
 
 </script>
 
@@ -25,7 +27,6 @@
 			</Svg>
 		</LayerCake>
 	</div>
-	<div id="mapid"></div>
 </main>
 
 <style>
