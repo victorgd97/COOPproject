@@ -5,7 +5,7 @@ import * as sidebar from 'leaflet-sidebar-v2';
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
+		name: 'world',
 	}
 });
 

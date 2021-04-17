@@ -3,7 +3,7 @@
 
 	import Sankey from './components/Sankey.svelte';
 
-	// import data from './data/data.js';
+	import data from './data/data.js';
 
 	//	import data from './data-processing/sankey/output/data_ods.json'
 
@@ -12,7 +12,6 @@
 <main>
 	<!-- <h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
-
 
 	<div id="mapid"></div>
 </main>
