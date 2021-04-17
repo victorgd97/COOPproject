@@ -30,7 +30,9 @@
 
 <style>
 	#mapid {
-	 width: 100vw;
+	 top: 50px;
+	 left: 150px;
+	 width: 80vw;
 	 height: 600px;
 	  }
 	/* main {
