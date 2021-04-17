@@ -4,7 +4,7 @@ import * as L from 'leaflet';
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
+		name: 'world',
 	}
 });
 
