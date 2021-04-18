@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "layercake": "^4.1.0",
     "rollup": "^2.3.4",
@@ -22,6 +23,7 @@
     "d3-sankey": "^0.12.3",
     "leaflet": "^1.7.1",
     "leaflet-sidebar-v2": "^3.2.3",
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.0",
+    "svelte-select": "^3.17.0"
   }
 }

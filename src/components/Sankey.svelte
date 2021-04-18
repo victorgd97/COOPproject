@@ -16,7 +16,7 @@
     export let linkSort = null;
     export let nodeSort = null;
 	export let nodeId = d => d.id;
-	export let nodeAlign = Sankey.sankeyLeft;
+	export let nodeAlign = Sankey.sankeyRight;
 
 	$: sankey = Sankey.sankey()
 		.nodeAlign(nodeAlign)

@@ -3,9 +3,12 @@
 
 	import Sankey from './components/Sankey.svelte';
 
-	import data from './data/data.js';
+	// import data from './data/data.js';
 
-	// import data from './data/data.json'
+	import data from './data/data.json'
+
+	let years = Object.keys(data);
+	let selected = '2015';
 
 </script>
 
@@ -13,15 +16,23 @@
 	<!-- <h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
-	<div class="chart-container" style="height:80vh;">
+	<select bind:value={selected}>
+		{#each years as year}
+			<option value={year}>
+				{year}
+			</option>
+		{/each}
+	</select>
+	
+	<div class="chart-container" style="height:75vh;">
 		<LayerCake
-			{data}
+			data = {data[selected]}
 		>
 			<Svg>
-			<Sankey
-						colorNodes={d => '#00bbff'}
-				colorLinks={d => '#00bbff35'}
-					/>
+				<Sankey
+					colorNodes={d => '#00bbff'}
+					colorLinks={d => '#e3e3e3'} 
+				/>
 			</Svg>
 		</LayerCake>
 	</div>
