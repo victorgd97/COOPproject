@@ -24,7 +24,7 @@
     };
 
     Mapdata.map(d => {
-        d.Bounds = [[d.lat,d.long],[d.lat+2,d.long+2]];
+        d.Bounds = [[d.lat-parseInt(d.Subvenció)/2000000,d.long-parseInt(d.Subvenció)/2000000],[d.lat+2+parseInt(d.Subvenció)/2000000,d.long+2+parseInt(d.Subvenció)/2000000]];
         return d;
     })
 
@@ -33,9 +33,8 @@
 <div class="example" style="width: 100%; height: 100%;">
     <LeafletMap options={mapOptions}>
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
-        <GeoJSON url="example.geojson" options={geoJsonOptions}/>
         {#each Mapdata as d}
-            <Rectangle latLngBounds={d.Bounds}, fillColor={d.ODScolor}/>
+            <Rectangle latLngBounds={d.Bounds} color={d.ODScolor} fillColor={d.ODScolor}/>
         {/each}
     </LeafletMap>
 </div>
