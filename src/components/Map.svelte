@@ -27,11 +27,7 @@
         d.Bounds = [[d.lat,d.long],[d.lat+2,d.long+2]];
         return d;
     })
-    console.log(Mapdata)
 
-    const Bounds = [[54.559322, -5.767822], 
-        [56.1210604, -3.021240]
-    ]
 </script>
 
 <div class="example" style="width: 100%; height: 100%;">
@@ -39,7 +35,7 @@
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
         <GeoJSON url="example.geojson" options={geoJsonOptions}/>
         {#each Mapdata as d}
-            <Rectangle latLngBounds={d.Bounds}/>
+            <Rectangle latLngBounds={d.Bounds}, fillColor={d.ODScolor}/>
         {/each}
     </LeafletMap>
 </div>
