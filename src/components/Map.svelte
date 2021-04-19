@@ -38,8 +38,8 @@
     <LeafletMap options={mapOptions}>
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
         <GeoJSON url="example.geojson" options={geoJsonOptions}/>
-
-            <Rectangle latLngBounds={Bounds}/>
-        
+        {#each Mapdata as d}
+            <Rectangle latLngBounds={d.Bounds}/>
+        {/each}
     </LeafletMap>
 </div>
