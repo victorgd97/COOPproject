@@ -49,6 +49,16 @@
 				stroke={colorLinks(d)}
 				stroke-opacity='0.5'
 				stroke-width={d.width} />
+			<text
+				x={(d.source.x0 + d.target.x0) / 2}
+				y={(d.y1 + d.y0) / 2}
+				dy="{(fontSize / 2) - 2}"
+				style="fill: {colorText(d)};
+							font-size: {fontSize}px;
+							text-anchor: middle">
+				{d.source.id==="Europa" || d.target.id==="Europa"?
+					d.source.id+" "+d.target.id:""}
+			</text>
 		{/each}
 	</g>
 	<g class='rect-group'>
