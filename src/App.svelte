@@ -24,7 +24,7 @@
 		{/each}
 	</select>
 	
-	<div class="chart-container" style="height:75vh;">
+	<div class="chart-container" style="height:90vh;">
 		<LayerCake
 			data = {data[selected]}
 		>
