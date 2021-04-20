@@ -40,12 +40,10 @@
 </main>
 
 <style>
-	#mapid {
-	 top: 50px;
-	 left: 150px;
-	 width: 80vw;
-	 height: 600px;
-	  }
+	:global(.graphic) {
+		height:200vh;
+		margin-bottom:3rem;
+	}
 	/* main {
 		text-align: center;
 		padding: 1em;
