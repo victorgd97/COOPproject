@@ -1,5 +1,5 @@
 <script>
-	import { LayerCake, Svg } from 'layercake';
+	import { LayerCake, Svg, Html } from 'layercake';
 
 	import Sankey from './components/Sankey.svelte';
 
@@ -7,8 +7,28 @@
 
 	import data from './data/data.json'
 
+	import Tooltip from './components/Tooltip.svelte';
+	import { format } from 'd3-format';
+
 	let years = Object.keys(data);
 	let selected = '2015';
+	let govLevel = ['Gene', 'Province', 'Region', 'Municipal'];
+	let area = ['Africa SudSahariana', 'Mediterrania', 'America del Sud', 'America Central i Carib', 'Àsia', 'Europa', 'Global','Sense Dades']
+	let tipusActor = ['ONG', 'Agent empresarial', 'Universitats', 'Diversos actors',
+       'Administracions catalanes', 'Centre de recerca',
+       'Federacions i coordinadores', 'Administracions del Sud',
+       'Multilaterals', 'Unknown_TipusActor'] 
+	let govLevelColor = "red", tipusActorColor="blue", areaColor='green', paisColor='yellow';
+	let nodeColoring = d => {
+		return govLevel.includes(d)? govLevelColor
+			  :area.includes(d)? areaColor
+			  :tipusActor.includes(d)? tipusActorColor
+			  : paisColor;
+	}
+
+	let evt;
+	let hideTooltip = true;
+	const addCommas = format(',');
 
 </script>
 
@@ -29,11 +49,36 @@
 			data = {data[selected]}
 		>
 			<Svg>
-				<Sankey
-					colorNodes={d => '#00bbff'}
+				<Sankey 
+					colorNodes={d => nodeColoring(d.id)}
 					colorLinks={d => '#e3e3e3'} 
 				/>
 			</Svg>
+			<Html>
+				<div>
+					<span class="highlight" style="color:{govLevelColor}"> govLevel </span> 
+					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span> 
+					<span class="highlight" style="color:{areaColor}"> Area </span> 
+					<span class="highlight" style="color:{paisColor}"> Pais </span> 
+				</div>
+			</Html>
+			<!-- svelte-ignore missing-declaration -->
+			<Html
+			pointerEvents={false}
+			>
+			{#if hideTooltip !== true}
+				<Tooltip
+					{evt}
+					let:detail
+				>
+				<div class="row"><span>1234</span></div>
+
+					<!-- {#each Object.entries(detail.props) as [key, value]}
+						<div class="row"><span>{key}:</span> {typeof value === 'number' ? addCommas(value) : value}</div>
+					{/each} -->
+				</Tooltip>
+			{/if}
+		</Html>
 		</LayerCake>
 	</div>
 	<!-- <div id="mapid"></div> -->
@@ -73,5 +118,12 @@
 	.chart-container {
     width: 80%;
     height: 80%;
+  }
+
+  .highlight{
+	  /* background-color: grey; */
+	  /* color: white; */
+	  padding: 0.5em;
+	  /* border-radius: 0.5em; */
   }
 </style>

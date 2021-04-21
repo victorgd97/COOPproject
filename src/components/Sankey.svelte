@@ -3,12 +3,13 @@
 	import * as Sankey from 'd3-sankey';
 
 	const { data, width, height } = getContext('LayerCake');
+	
 
 	/* --------------------------------------------
 	 * Allow for dynamic coloring
 	 */
 	export let colorLinks = d => 'rgba(0, 0, 0, .2)';
-	export let colorNodes = d => '#333';
+	export let colorNodes = d => 'green';
 	export let colorText = d => '#263238';
 
 	export let nodeWidth = 10;
@@ -16,7 +17,7 @@
     export let linkSort = null;
     export let nodeSort = null;
 	export let nodeId = d => d.id;
-	export let nodeAlign = Sankey.sankeyRight;
+	export let nodeAlign = Sankey.sankeyJustify;
 
 	$: sankey = Sankey.sankey()
 		.nodeAlign(nodeAlign)
@@ -31,7 +32,9 @@
 
 	$: link = Sankey.sankeyLinkHorizontal();
 
-    $: fontSize = $width <= 320 ? 8 : 12;
+	$: fontSize = $width <= 320 ? 8 : 12;
+	
+
 </script>
 
 <style>
@@ -48,7 +51,8 @@
 				fill='none'
 				stroke={colorLinks(d)}
 				stroke-opacity='0.5'
-				stroke-width={d.width} />
+				stroke-width={d.width} 
+			/>
 			<text
 				x={(d.source.x0 + d.target.x0) / 2}
 				y={(d.y1 + d.y0) / 2}
@@ -66,7 +70,8 @@
 				y={d.y0}
 				height={d.y1 - d.y0}
 				width={d.x1 - d.x0}
-				fill={colorNodes(d)} />
+				fill={colorNodes(d)} 
+				/>
 			<text
 				x={d.x0 < $width / 4 ? d.x1 + 6 : d.x0 - 6}
 				y={(d.y1 + d.y0) / 2}
