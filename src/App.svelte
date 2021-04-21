@@ -13,7 +13,7 @@
 	let years = Object.keys(data);
 	let selected = '2015';
 	let govLevel = ['Gene', 'Province', 'Region', 'Municipal'];
-	let area = ['Africa SudSahariana', 'Mediterrania', 'America del Sud', 'America Central i Carib', 'Àsia', 'Europa', 'Global','Sense Dades']
+	let area = ['Africa SudSahariana', 'Mediterrania', 'America del Sud', 'America Central i Carib', 'Àsia', 'Europa', 'Global','Sense Dades', 'Unknown_Area']
 	let tipusActor = ['ONG', 'Agent empresarial', 'Universitats', 'Diversos actors',
        'Administracions catalanes', 'Centre de recerca',
        'Federacions i coordinadores', 'Administracions del Sud',
@@ -37,7 +37,7 @@
 <main>
 	<label>
 		<input type=checkbox bind:checked={yes}>
-		Hide Sense Dades
+		Hide Sense Dades, Unknown_TipusActor, Unknown_Area
 	</label>
 
 	Year:
@@ -60,9 +60,9 @@
 			</Svg>
 			<Html>
 				<div>
-					<span class="highlight" style="color:{govLevelColor}"> govLevel </span> 
-					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span> 
-					<span class="highlight" style="color:{areaColor}"> Area </span> 
+					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+					<span class="highlight" style="color:{areaColor}"> Area </span>|
 					<span class="highlight" style="color:{paisColor}"> Pais </span> 
 				</div>
 			</Html>
