@@ -56,8 +56,6 @@
 				style="fill: {colorText(d)};
 							font-size: {fontSize}px;
 							text-anchor: middle">
-				{d.source.id==="Europa" || d.target.id==="Europa"?
-					d.source.id+" "+d.target.id:""}
 			</text>
 		{/each}
 	</g>
