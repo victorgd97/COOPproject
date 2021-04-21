@@ -18,13 +18,15 @@
        'Administracions catalanes', 'Centre de recerca',
        'Federacions i coordinadores', 'Administracions del Sud',
        'Multilaterals', 'Unknown_TipusActor'] 
-	let govLevelColor = "red", tipusActorColor="blue", areaColor='green', paisColor='yellow';
+	let govLevelColor = "#7a0177", tipusActorColor="#c51b8a", areaColor='#f768a1', paisColor='#fbb4b9';
 	let nodeColoring = d => {
 		return govLevel.includes(d)? govLevelColor
 			  :area.includes(d)? areaColor
 			  :tipusActor.includes(d)? tipusActorColor
 			  : paisColor;
 	}
+
+	let yes = false;
 
 	let evt;
 	let hideTooltip = true;
@@ -33,9 +35,12 @@
 </script>
 
 <main>
-	<!-- <h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
+	<label>
+		<input type=checkbox bind:checked={yes}>
+		Hide Sense Dades
+	</label>
 
+	Year:
 	<select bind:value={selected}>
 		{#each years as year}
 			<option value={year}>
@@ -43,7 +48,6 @@
 			</option>
 		{/each}
 	</select>
-	
 	<div class="chart-container" style="height:90vh;">
 		<LayerCake
 			data = {data[selected]}
