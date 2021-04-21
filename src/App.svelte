@@ -7,15 +7,39 @@
 
 	import Mapy from "./components/Map.svelte";
 	//	import data from './data-processing/sankey/output/data_ods.json'
+  import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+
 
 </script>
 
 <main>
-	<!-- <h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
-	<div id="mapid">
-		<Mapy/>
-	</div>
+	<Tabs>
+		<TabList>
+		  <Tab>Agents</Tab>
+		  <Tab>Països</Tab>
+		  <Tab>Canalització</Tab>
+		  <Tab>Actuacions</Tab>
+		</TabList>
+	  
+		<TabPanel>
+		  <h2>Panel One</h2>
+		</TabPanel>
+	  
+		<TabPanel>
+			<div id="mapid">
+				<Mapy/>
+			</div>
+		</TabPanel>
+	  
+		<TabPanel>
+		  <h2>Panel Three</h2>
+		</TabPanel>
+
+		<TabPanel>
+			<h2>Panell quatre</h2>
+		</TabPanel>
+
+	  </Tabs>
 
 
 </main>
@@ -26,7 +50,8 @@
 	 left: 150px;
 	 width: 80vw;
 	 height: 600px;
-	  }
+	}
+
 	/* main {
 		text-align: center;
 		padding: 1em;

@@ -24,6 +24,7 @@
     "leaflet": "^1.7.1",
     "leaflet-sidebar-v2": "^3.2.3",
     "sirv-cli": "^1.0.0",
-    "svelte-leafletjs": "^0.6.1"
+    "svelte-leafletjs": "^0.6.1",
+    "svelte-tabs": "^1.1.0"
   }
 }
