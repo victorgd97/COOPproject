@@ -1,0 +1,4162 @@
+[
+  {
+    "Pais": "Africa SudSahariana",
+    "Any": 2015,
+    "Subvenció": 20652.19,
+    "lat": 40.435,
+    "long": -3.684,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Algeria",
+    "Any": 2015,
+    "Subvenció": 1829,
+    "lat": 28.034,
+    "long": 1.66,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Algeria",
+    "Any": 2015,
+    "Subvenció": 3500,
+    "lat": 28.034,
+    "long": 1.66,
+    "ODS": 10,
+    "ODScolor": "#dd1367",
+    "ODSlabel": "Reduced inequalities"
+  },
+  {
+    "Pais": "Algeria",
+    "Any": 2016,
+    "Subvenció": 67396.95,
+    "lat": 28.034,
+    "long": 1.66,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2015,
+    "Subvenció": 80000,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2015,
+    "Subvenció": 117900,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2015,
+    "Subvenció": 169194,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2015,
+    "Subvenció": 183826.53,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2016,
+    "Subvenció": 8000,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2016,
+    "Subvenció": 86468.71,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2016,
+    "Subvenció": 128221,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "America Central i Carib",
+    "Any": 2017,
+    "Subvenció": 147776,
+    "lat": 12.769,
+    "long": -85.602,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "America del Sud",
+    "Any": 2015,
+    "Subvenció": 6000,
+    "lat": -8.783,
+    "long": -55.491,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "America del Sud",
+    "Any": 2015,
+    "Subvenció": 50000,
+    "lat": -8.783,
+    "long": -55.491,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "America del Sud",
+    "Any": 2018,
+    "Subvenció": 17500,
+    "lat": -8.783,
+    "long": -55.491,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Angola",
+    "Any": 2015,
+    "Subvenció": 13590,
+    "lat": -11.203,
+    "long": 17.874,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Angola",
+    "Any": 2016,
+    "Subvenció": 10000,
+    "lat": -11.203,
+    "long": 17.874,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Angola",
+    "Any": 2017,
+    "Subvenció": 10000,
+    "lat": -11.203,
+    "long": 17.874,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Argentina",
+    "Any": 2015,
+    "Subvenció": 39412.69,
+    "lat": -38.416,
+    "long": -63.617,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Argentina",
+    "Any": 2015,
+    "Subvenció": 44994.6,
+    "lat": -38.416,
+    "long": -63.617,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Argentina",
+    "Any": 2015,
+    "Subvenció": 209611.66,
+    "lat": -38.416,
+    "long": -63.617,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Argentina",
+    "Any": 2016,
+    "Subvenció": 23726,
+    "lat": -38.416,
+    "long": -63.617,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Armenia",
+    "Any": 2015,
+    "Subvenció": 16742.7,
+    "lat": 40.069,
+    "long": 45.038,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Bangladesh",
+    "Any": 2015,
+    "Subvenció": 74305.78,
+    "lat": 23.685,
+    "long": 90.356,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Belarus",
+    "Any": 2015,
+    "Subvenció": 8643,
+    "lat": 53.71,
+    "long": 27.953,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Belarus",
+    "Any": 2017,
+    "Subvenció": 8790,
+    "lat": 53.71,
+    "long": 27.953,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Benin",
+    "Any": 2017,
+    "Subvenció": 2500,
+    "lat": 9.308,
+    "long": 2.316,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Benin",
+    "Any": 2018,
+    "Subvenció": 30000,
+    "lat": 9.308,
+    "long": 2.316,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 48479,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 105887.17,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 143802.86,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 161107.59,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 349245.4,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 394022.06,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2015,
+    "Subvenció": 635563.85,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2016,
+    "Subvenció": 3064,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Bolivia",
+    "Any": 2016,
+    "Subvenció": 278200,
+    "lat": -16.29,
+    "long": -63.589,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Bosnia and Herzegovina",
+    "Any": 2015,
+    "Subvenció": 82000,
+    "lat": 43.916,
+    "long": 17.679,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Bosnia and Herzegovina",
+    "Any": 2016,
+    "Subvenció": 156593.67,
+    "lat": 43.916,
+    "long": 17.679,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Bosnia and Herzegovina",
+    "Any": 2017,
+    "Subvenció": 5000,
+    "lat": 43.916,
+    "long": 17.679,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Bosnia and Herzegovina",
+    "Any": 2017,
+    "Subvenció": 70000,
+    "lat": 43.916,
+    "long": 17.679,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Brazil",
+    "Any": 2015,
+    "Subvenció": 16566.43,
+    "lat": -14.235,
+    "long": -51.925,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Brazil",
+    "Any": 2015,
+    "Subvenció": 140776.9,
+    "lat": -14.235,
+    "long": -51.925,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Brazil",
+    "Any": 2016,
+    "Subvenció": 9058.24,
+    "lat": -14.235,
+    "long": -51.925,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Brazil",
+    "Any": 2016,
+    "Subvenció": 9908.94,
+    "lat": -14.235,
+    "long": -51.925,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Brazil",
+    "Any": 2018,
+    "Subvenció": 6600,
+    "lat": -14.235,
+    "long": -51.925,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2015,
+    "Subvenció": 37336.43,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2015,
+    "Subvenció": 66150,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2015,
+    "Subvenció": 76925.4,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2015,
+    "Subvenció": 102565.65,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2015,
+    "Subvenció": 224851.18,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Burkina Faso",
+    "Any": 2016,
+    "Subvenció": 94406.91,
+    "lat": 12.238,
+    "long": -1.562,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Burma",
+    "Any": 2015,
+    "Subvenció": 1500,
+    "lat": 21.916,
+    "long": 95.956,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Burma",
+    "Any": 2017,
+    "Subvenció": 2062.5,
+    "lat": 21.916,
+    "long": 95.956,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Burma",
+    "Any": 2017,
+    "Subvenció": 100000,
+    "lat": 21.916,
+    "long": 95.956,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Burundi",
+    "Any": 2015,
+    "Subvenció": 2474,
+    "lat": -3.373,
+    "long": 29.919,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Cambodia",
+    "Any": 2015,
+    "Subvenció": 91816.38,
+    "lat": 12.566,
+    "long": 104.991,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 8005.69,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 18771.8,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 21291.69,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 63349.32,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 72304.35,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Cameroon",
+    "Any": 2015,
+    "Subvenció": 83334.8,
+    "lat": 7.37,
+    "long": 12.355,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 3000,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 10,
+    "ODScolor": "#dd1367",
+    "ODSlabel": "Reduced inequalities"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 86449,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 187140.48,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 198109.47,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 0,
+    "ODScolor": "grey",
+    "ODSlabel": "Administrative"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 698500,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 816452.22,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 947901.21,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 1342007.57,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 2552085.44,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 13247634.09,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 17294832.79,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": "#N/A",
+    "ODScolor": "lightgrey",
+    "ODSlabel": "Nodata"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2015,
+    "Subvenció": 23778218.46,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2016,
+    "Subvenció": 12794,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Catalunya",
+    "Any": 2016,
+    "Subvenció": 366000,
+    "lat": 41.591,
+    "long": 1.521,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Central African Republic",
+    "Any": 2016,
+    "Subvenció": 1500,
+    "lat": 6.611,
+    "long": 20.939,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Chad",
+    "Any": 2017,
+    "Subvenció": 4947.47,
+    "lat": 15.454,
+    "long": 18.732,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2015,
+    "Subvenció": 2353,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2015,
+    "Subvenció": 44959.5,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2015,
+    "Subvenció": 63998.2,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2015,
+    "Subvenció": 67605.79,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2016,
+    "Subvenció": 978.14,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2016,
+    "Subvenció": 1320,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Chile",
+    "Any": 2016,
+    "Subvenció": 16921.8,
+    "lat": -35.675,
+    "long": -71.543,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "China",
+    "Any": 2015,
+    "Subvenció": 444213.88,
+    "lat": 35.862,
+    "long": 104.195,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 19315.95,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 60817.12,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 69107,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 443649.37,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 759560.19,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 1839635.54,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2015,
+    "Subvenció": 2617386.23,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Colombia",
+    "Any": 2018,
+    "Subvenció": 4864,
+    "lat": 4.571,
+    "long": -74.297,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Costa Rica",
+    "Any": 2015,
+    "Subvenció": 18473,
+    "lat": 9.749,
+    "long": -83.753,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Costa Rica",
+    "Any": 2015,
+    "Subvenció": 31719.5,
+    "lat": 9.749,
+    "long": -83.753,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Costa Rica",
+    "Any": 2016,
+    "Subvenció": 17992.8,
+    "lat": 9.749,
+    "long": -83.753,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Cote d'Ivoire",
+    "Any": 2016,
+    "Subvenció": 14999.86,
+    "lat": 7.54,
+    "long": -5.547,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Cote d'Ivoire",
+    "Any": 2017,
+    "Subvenció": 9000,
+    "lat": 7.54,
+    "long": -5.547,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Cote d'Ivoire",
+    "Any": 2017,
+    "Subvenció": 14999.87,
+    "lat": 7.54,
+    "long": -5.547,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 13471.86,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 21000,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 139376,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 143875,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 178276,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 243417,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 541372,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2015,
+    "Subvenció": 614413.74,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2016,
+    "Subvenció": 7500,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Cuba",
+    "Any": 2018,
+    "Subvenció": 8000,
+    "lat": 21.522,
+    "long": -77.781,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2015,
+    "Subvenció": 48825,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2015,
+    "Subvenció": 182378.11,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2015,
+    "Subvenció": 294035.49,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2015,
+    "Subvenció": 336222.05,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2015,
+    "Subvenció": 466295.49,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2016,
+    "Subvenció": 14969.09,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2016,
+    "Subvenció": 18935,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Democratic Republic of the Congo",
+    "Any": 2017,
+    "Subvenció": 79576.4,
+    "lat": -4.038,
+    "long": 21.759,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Dominican Republic",
+    "Any": 2015,
+    "Subvenció": 1718.57,
+    "lat": 18.736,
+    "long": -70.163,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Dominican Republic",
+    "Any": 2015,
+    "Subvenció": 66719.58,
+    "lat": 18.736,
+    "long": -70.163,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Dominican Republic",
+    "Any": 2016,
+    "Subvenció": 4400,
+    "lat": 18.736,
+    "long": -70.163,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Dominican Republic",
+    "Any": 2017,
+    "Subvenció": 18277.6,
+    "lat": 18.736,
+    "long": -70.163,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 17377.27,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 59664,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 92843.92,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 155328.76,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 368845,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 485925.95,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2015,
+    "Subvenció": 824510.52,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2016,
+    "Subvenció": 16763.7,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2016,
+    "Subvenció": 40000,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2016,
+    "Subvenció": 169149.62,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Ecuador",
+    "Any": 2016,
+    "Subvenció": 225543,
+    "lat": -1.831,
+    "long": -78.183,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Egypt",
+    "Any": 2015,
+    "Subvenció": 60215.01,
+    "lat": 26.821,
+    "long": 30.802,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 105666.61,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 159078.71,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 185262.52,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 232886.8,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 259365.87,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 1131717.44,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2015,
+    "Subvenció": 1286622.79,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2016,
+    "Subvenció": 5145,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2016,
+    "Subvenció": 74483.24,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "El Salvador",
+    "Any": 2018,
+    "Subvenció": 3452.38,
+    "lat": 13.794,
+    "long": -88.897,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Equatorial Guinea",
+    "Any": 2015,
+    "Subvenció": 31607,
+    "lat": 1.651,
+    "long": 10.268,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Equatorial Guinea",
+    "Any": 2015,
+    "Subvenció": 33007.61,
+    "lat": 1.651,
+    "long": 10.268,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Equatorial Guinea",
+    "Any": 2015,
+    "Subvenció": 82000,
+    "lat": 1.651,
+    "long": 10.268,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Equatorial Guinea",
+    "Any": 2017,
+    "Subvenció": 133.82,
+    "lat": 1.651,
+    "long": 10.268,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2015,
+    "Subvenció": 3582.94,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2015,
+    "Subvenció": 19070,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2015,
+    "Subvenció": 89572.7,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2015,
+    "Subvenció": 106435.78,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2016,
+    "Subvenció": 2604,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2016,
+    "Subvenció": 7899.31,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Ethiopia",
+    "Any": 2016,
+    "Subvenció": 28119,
+    "lat": 9.145,
+    "long": 40.49,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Europe",
+    "Any": 2015,
+    "Subvenció": 36019,
+    "lat": 48.099,
+    "long": 4.154,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Gabon",
+    "Any": 2016,
+    "Subvenció": 29619.95,
+    "lat": -804,
+    "long": 11.609,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 30454.49,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 40900,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 47497.44,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 48381.08,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 66177.73,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 110323.58,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 125659.19,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2015,
+    "Subvenció": 172747.78,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2016,
+    "Subvenció": 24988.76,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Gambia",
+    "Any": 2018,
+    "Subvenció": 3950,
+    "lat": 13.443,
+    "long": -15.31,
+    "ODS": 0,
+    "ODScolor": "grey",
+    "ODSlabel": "Administrative"
+  },
+  {
+    "Pais": "Georgia",
+    "Any": 2015,
+    "Subvenció": 29889.8,
+    "lat": 42.315,
+    "long": 43.357,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Ghana",
+    "Any": 2015,
+    "Subvenció": 49794.28,
+    "lat": 7.947,
+    "long": -1.023,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Ghana",
+    "Any": 2017,
+    "Subvenció": 19168,
+    "lat": 7.947,
+    "long": -1.023,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Ghana",
+    "Any": 2017,
+    "Subvenció": 25550,
+    "lat": 7.947,
+    "long": -1.023,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 4326.8,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 12849,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 41275.5,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 56840.25,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 125000,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 304387.24,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2015,
+    "Subvenció": 363056.57,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2016,
+    "Subvenció": 130041.6,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2016,
+    "Subvenció": 169784,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2016,
+    "Subvenció": 1777265.42,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Global",
+    "Any": 2017,
+    "Subvenció": 800,
+    "lat": 39.09,
+    "long": -42.851,
+    "ODS": "#N/A",
+    "ODScolor": "lightgrey",
+    "ODSlabel": "Nodata"
+  },
+  {
+    "Pais": "Greece",
+    "Any": 2015,
+    "Subvenció": 105055.21,
+    "lat": 39.074,
+    "long": 21.824,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Greece",
+    "Any": 2017,
+    "Subvenció": 7230,
+    "lat": 39.074,
+    "long": 21.824,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Greece",
+    "Any": 2017,
+    "Subvenció": 67486.6,
+    "lat": 39.074,
+    "long": 21.824,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 62831.61,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 103829.63,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 139491.8,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 173062.25,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 220256.16,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 244601.24,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 270338.95,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 529718.56,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2015,
+    "Subvenció": 1964369.86,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Guatemala",
+    "Any": 2017,
+    "Subvenció": 4457,
+    "lat": 15.783,
+    "long": -90.231,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Guinea-Bissau",
+    "Any": 2015,
+    "Subvenció": 8532,
+    "lat": 11.804,
+    "long": -15.18,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Guinea-Bissau",
+    "Any": 2015,
+    "Subvenció": 9000,
+    "lat": 11.804,
+    "long": -15.18,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Guinea-Bissau",
+    "Any": 2015,
+    "Subvenció": 68381.94,
+    "lat": 11.804,
+    "long": -15.18,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Guinea-Bissau",
+    "Any": 2017,
+    "Subvenció": 3000,
+    "lat": 11.804,
+    "long": -15.18,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Guinea-Bissau",
+    "Any": 2017,
+    "Subvenció": 7120.47,
+    "lat": 11.804,
+    "long": -15.18,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2015,
+    "Subvenció": 1423.88,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2015,
+    "Subvenció": 4515.16,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2015,
+    "Subvenció": 55354,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2016,
+    "Subvenció": 6390,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2017,
+    "Subvenció": 6046.1,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 0,
+    "ODScolor": "grey",
+    "ODSlabel": "Administrative"
+  },
+  {
+    "Pais": "Haiti",
+    "Any": 2018,
+    "Subvenció": 5340.5,
+    "lat": 18.971,
+    "long": -72.285,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2015,
+    "Subvenció": 4460,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2015,
+    "Subvenció": 62042,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2015,
+    "Subvenció": 63347.06,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2015,
+    "Subvenció": 72044.69,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2015,
+    "Subvenció": 153571.98,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Honduras",
+    "Any": 2016,
+    "Subvenció": 12512.5,
+    "lat": 15.2,
+    "long": -86.242,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 6000,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 71661.23,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 74165.2,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 153761.06,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 253051.53,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 389202.62,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "India",
+    "Any": 2015,
+    "Subvenció": 976173.54,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "India",
+    "Any": 2016,
+    "Subvenció": 24814.11,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "India",
+    "Any": 2016,
+    "Subvenció": 117359.1,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "India",
+    "Any": 2017,
+    "Subvenció": 9970,
+    "lat": 20.594,
+    "long": 78.963,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Indonesia",
+    "Any": 2018,
+    "Subvenció": 51256.5,
+    "lat": -789,
+    "long": 113.921,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Iran (Islamic Republic of)",
+    "Any": 2015,
+    "Subvenció": 381771.5,
+    "lat": 32.428,
+    "long": 53.688,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Iran (Islamic Republic of)",
+    "Any": 2017,
+    "Subvenció": 12125.07,
+    "lat": 32.428,
+    "long": 53.688,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Iran (Islamic Republic of)",
+    "Any": 2017,
+    "Subvenció": 88934,
+    "lat": 32.428,
+    "long": 53.688,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Iraq",
+    "Any": 2015,
+    "Subvenció": 17500,
+    "lat": 33.223,
+    "long": 43.679,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Iraq",
+    "Any": 2017,
+    "Subvenció": 298619.77,
+    "lat": 33.223,
+    "long": 43.679,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Jordan",
+    "Any": 2015,
+    "Subvenció": 80939.8,
+    "lat": 30.585,
+    "long": 36.238,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Jordan",
+    "Any": 2016,
+    "Subvenció": 298792,
+    "lat": 30.585,
+    "long": 36.238,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Jordan",
+    "Any": 2018,
+    "Subvenció": 25000,
+    "lat": 30.585,
+    "long": 36.238,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Kenya",
+    "Any": 2015,
+    "Subvenció": 6764,
+    "lat": -24,
+    "long": 37.906,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Kenya",
+    "Any": 2015,
+    "Subvenció": 51007,
+    "lat": -24,
+    "long": 37.906,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Kenya",
+    "Any": 2017,
+    "Subvenció": 14220,
+    "lat": -24,
+    "long": 37.906,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Kenya",
+    "Any": 2017,
+    "Subvenció": 137749,
+    "lat": -24,
+    "long": 37.906,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2015,
+    "Subvenció": 109171.22,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2015,
+    "Subvenció": 112730,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2015,
+    "Subvenció": 303100,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2015,
+    "Subvenció": 479818.14,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2015,
+    "Subvenció": 514538.29,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2016,
+    "Subvenció": 73011.9,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2016,
+    "Subvenció": 160058.31,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2016,
+    "Subvenció": 466272.75,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2017,
+    "Subvenció": 13504.9,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 14,
+    "ODScolor": "#0a97d9",
+    "ODSlabel": "Life below water"
+  },
+  {
+    "Pais": "Lebanon",
+    "Any": 2017,
+    "Subvenció": 321164.59,
+    "lat": 33.855,
+    "long": 35.862,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Libyan Arab Jamahiriya",
+    "Any": 2015,
+    "Subvenció": 51289,
+    "lat": 26.335,
+    "long": 17.228,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Libyan Arab Jamahiriya",
+    "Any": 2016,
+    "Subvenció": 69,
+    "lat": 26.335,
+    "long": 17.228,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2015,
+    "Subvenció": 3000,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2015,
+    "Subvenció": 17969,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2015,
+    "Subvenció": 48479.56,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2016,
+    "Subvenció": 37263,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2017,
+    "Subvenció": 4000,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Madagascar",
+    "Any": 2017,
+    "Subvenció": 6328.93,
+    "lat": -18.767,
+    "long": 46.869,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Malawi",
+    "Any": 2015,
+    "Subvenció": 21000,
+    "lat": -13.254,
+    "long": 34.302,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Malawi",
+    "Any": 2015,
+    "Subvenció": 43506,
+    "lat": -13.254,
+    "long": 34.302,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Malaysia",
+    "Any": 2015,
+    "Subvenció": 15200.06,
+    "lat": 4.21,
+    "long": 101.976,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2015,
+    "Subvenció": 19900,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2015,
+    "Subvenció": 35375.15,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2015,
+    "Subvenció": 45655.46,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2015,
+    "Subvenció": 65222.04,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2015,
+    "Subvenció": 249347,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2016,
+    "Subvenció": 21500,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Mali",
+    "Any": 2016,
+    "Subvenció": 32457,
+    "lat": 17.571,
+    "long": -3.996,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Mauritania",
+    "Any": 2015,
+    "Subvenció": 70000,
+    "lat": 21.008,
+    "long": -10.941,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mauritania",
+    "Any": 2016,
+    "Subvenció": 29810.2,
+    "lat": 21.008,
+    "long": -10.941,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Mauritania",
+    "Any": 2018,
+    "Subvenció": 11337.71,
+    "lat": 21.008,
+    "long": -10.941,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Mediterranean",
+    "Any": 2015,
+    "Subvenció": 250950,
+    "lat": 36.622,
+    "long": -2.941,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Mediterranean",
+    "Any": 2015,
+    "Subvenció": 1902967.05,
+    "lat": 36.622,
+    "long": -2.941,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Mediterranean",
+    "Any": 2017,
+    "Subvenció": 84900,
+    "lat": 36.622,
+    "long": -2.941,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Mediterranean",
+    "Any": 2017,
+    "Subvenció": 125000,
+    "lat": 36.622,
+    "long": -2.941,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2015,
+    "Subvenció": 81160,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2015,
+    "Subvenció": 126450,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2015,
+    "Subvenció": 476654.38,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2017,
+    "Subvenció": 7148,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2018,
+    "Subvenció": 18150,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Mexico",
+    "Any": 2018,
+    "Subvenció": 33000,
+    "lat": 23.635,
+    "long": -102.553,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 19092.6,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 83795,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 181261.15,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 219629.4,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 238182.4,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 299793.81,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 529822.5,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 1037363.91,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2015,
+    "Subvenció": 1264414,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2016,
+    "Subvenció": 32007.05,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2017,
+    "Subvenció": 1050,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Morocco",
+    "Any": 2017,
+    "Subvenció": 13049.5,
+    "lat": 31.792,
+    "long": -7.093,
+    "ODS": 7,
+    "ODScolor": "#fcc30b",
+    "ODSlabel": "Affordable and clean energy"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 11000,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 50809.1,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 119012,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 492497.1,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 634491.16,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2015,
+    "Subvenció": 2785432.68,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2016,
+    "Subvenció": 117656.23,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Mozambique",
+    "Any": 2017,
+    "Subvenció": 29950.62,
+    "lat": -18.666,
+    "long": 35.53,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Nepal",
+    "Any": 2015,
+    "Subvenció": 27236.93,
+    "lat": 28.395,
+    "long": 84.124,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Nepal",
+    "Any": 2015,
+    "Subvenció": 29072,
+    "lat": 28.395,
+    "long": 84.124,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Nepal",
+    "Any": 2015,
+    "Subvenció": 39831.88,
+    "lat": 28.395,
+    "long": 84.124,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Nepal",
+    "Any": 2015,
+    "Subvenció": 60008.23,
+    "lat": 28.395,
+    "long": 84.124,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Nepal",
+    "Any": 2015,
+    "Subvenció": 240734,
+    "lat": 28.395,
+    "long": 84.124,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 206659.38,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 228870.16,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 239121,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 312095.13,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 342113.6,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 414027.12,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2015,
+    "Subvenció": 439525.1,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2016,
+    "Subvenció": 32515.9,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Nicaragua",
+    "Any": 2017,
+    "Subvenció": 22720.05,
+    "lat": 12.865,
+    "long": -85.207,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Niger",
+    "Any": 2015,
+    "Subvenció": 152958,
+    "lat": 17.608,
+    "long": 8.082,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Niger",
+    "Any": 2015,
+    "Subvenció": 171823.99,
+    "lat": 17.608,
+    "long": 8.082,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Niger",
+    "Any": 2016,
+    "Subvenció": 16930.97,
+    "lat": 17.608,
+    "long": 8.082,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Niger",
+    "Any": 2016,
+    "Subvenció": 28438,
+    "lat": 17.608,
+    "long": 8.082,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Nigeria",
+    "Any": 2015,
+    "Subvenció": 30000,
+    "lat": 9.082,
+    "long": 8.675,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Pakistan",
+    "Any": 2015,
+    "Subvenció": 164862.54,
+    "lat": 30.375,
+    "long": 69.345,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Pakistan",
+    "Any": 2017,
+    "Subvenció": 123.64,
+    "lat": 30.375,
+    "long": 69.345,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Pakistan",
+    "Any": 2017,
+    "Subvenció": 135000,
+    "lat": 30.375,
+    "long": 69.345,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 49896,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 150000,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 0,
+    "ODScolor": "grey",
+    "ODSlabel": "Administrative"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 268191,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 362736.69,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 387239,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2015,
+    "Subvenció": 1902657.94,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2016,
+    "Subvenció": 9693,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2016,
+    "Subvenció": 18190.66,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 10,
+    "ODScolor": "#dd1367",
+    "ODSlabel": "Reduced inequalities"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2016,
+    "Subvenció": 154964,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Palestine",
+    "Any": 2017,
+    "Subvenció": 70024,
+    "lat": 31.952,
+    "long": 35.233,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Panama",
+    "Any": 2015,
+    "Subvenció": 22102.48,
+    "lat": 8.538,
+    "long": -80.782,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Panama",
+    "Any": 2015,
+    "Subvenció": 102842.53,
+    "lat": 8.538,
+    "long": -80.782,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2015,
+    "Subvenció": 1963.62,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2015,
+    "Subvenció": 5246,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2015,
+    "Subvenció": 84483.57,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2016,
+    "Subvenció": 3383,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2016,
+    "Subvenció": 15172,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Paraguay",
+    "Any": 2016,
+    "Subvenció": 15199,
+    "lat": -23.443,
+    "long": -58.444,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 6396,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 65370.54,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 68836.29,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 70099.8,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 91907.98,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 127650.5,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 276325.93,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 367665.58,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2015,
+    "Subvenció": 370847.92,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2016,
+    "Subvenció": 8400,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 1,
+    "ODScolor": "#e5243b",
+    "ODSlabel": "No poverty"
+  },
+  {
+    "Pais": "Peru",
+    "Any": 2016,
+    "Subvenció": 14992.5,
+    "lat": -9.19,
+    "long": -75.015,
+    "ODS": 10,
+    "ODScolor": "#dd1367",
+    "ODSlabel": "Reduced inequalities"
+  },
+  {
+    "Pais": "Philippines",
+    "Any": 2015,
+    "Subvenció": 3181,
+    "lat": 12.88,
+    "long": 121.774,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Philippines",
+    "Any": 2016,
+    "Subvenció": 26865,
+    "lat": 12.88,
+    "long": 121.774,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Philippines",
+    "Any": 2017,
+    "Subvenció": 11190.42,
+    "lat": 12.88,
+    "long": 121.774,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Republic of Moldova",
+    "Any": 2015,
+    "Subvenció": 6360.9,
+    "lat": 47.412,
+    "long": 28.37,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Republic of Moldova",
+    "Any": 2015,
+    "Subvenció": 21000,
+    "lat": 47.412,
+    "long": 28.37,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Russia",
+    "Any": 2017,
+    "Subvenció": 16688.75,
+    "lat": 61.524,
+    "long": 105.319,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Rwanda",
+    "Any": 2016,
+    "Subvenció": 114000,
+    "lat": -1.94,
+    "long": 29.874,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Rwanda",
+    "Any": 2017,
+    "Subvenció": 4073.24,
+    "lat": -1.94,
+    "long": 29.874,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 12107,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 12981.94,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 50605.31,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 93393.44,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 224546.71,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 259023.59,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 455074.22,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 1026573.23,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2015,
+    "Subvenció": 1217845.57,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2016,
+    "Subvenció": 172564.76,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Senegal",
+    "Any": 2017,
+    "Subvenció": 56005,
+    "lat": 14.497,
+    "long": -14.452,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Serbia",
+    "Any": 2015,
+    "Subvenció": 66102.91,
+    "lat": 44.017,
+    "long": 21.006,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Sierra Leone",
+    "Any": 2015,
+    "Subvenció": 12218,
+    "lat": 8.461,
+    "long": -11.78,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Sierra Leone",
+    "Any": 2015,
+    "Subvenció": 65668,
+    "lat": 8.461,
+    "long": -11.78,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Sri Lanka",
+    "Any": 2015,
+    "Subvenció": 15126,
+    "lat": 7.873,
+    "long": 80.772,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Sri Lanka",
+    "Any": 2016,
+    "Subvenció": 10755,
+    "lat": 7.873,
+    "long": 80.772,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Syrian Arab Republic",
+    "Any": 2015,
+    "Subvenció": 666167.43,
+    "lat": 34.802,
+    "long": 38.997,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Syrian Arab Republic",
+    "Any": 2016,
+    "Subvenció": 689,
+    "lat": 34.802,
+    "long": 38.997,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Syrian Arab Republic",
+    "Any": 2017,
+    "Subvenció": 75000,
+    "lat": 34.802,
+    "long": 38.997,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Togo",
+    "Any": 2015,
+    "Subvenció": 66904.85,
+    "lat": 8.62,
+    "long": 825,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Togo",
+    "Any": 2016,
+    "Subvenció": 55532.09,
+    "lat": 8.62,
+    "long": 825,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Tunisia",
+    "Any": 2015,
+    "Subvenció": 70000,
+    "lat": 33.887,
+    "long": 9.537,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Tunisia",
+    "Any": 2015,
+    "Subvenció": 74156.99,
+    "lat": 33.887,
+    "long": 9.537,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Tunisia",
+    "Any": 2016,
+    "Subvenció": 57440,
+    "lat": 33.887,
+    "long": 9.537,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Tunisia",
+    "Any": 2017,
+    "Subvenció": 56500,
+    "lat": 33.887,
+    "long": 9.537,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Tunisia",
+    "Any": 2017,
+    "Subvenció": 100000,
+    "lat": 33.887,
+    "long": 9.537,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Turkey",
+    "Any": 2015,
+    "Subvenció": 312363.61,
+    "lat": 38.964,
+    "long": 35.243,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Turkey",
+    "Any": 2016,
+    "Subvenció": 23506.12,
+    "lat": 38.964,
+    "long": 35.243,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Turkey",
+    "Any": 2016,
+    "Subvenció": 65000,
+    "lat": 38.964,
+    "long": 35.243,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Turkey",
+    "Any": 2017,
+    "Subvenció": 4336.55,
+    "lat": 38.964,
+    "long": 35.243,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Turkmenistan",
+    "Any": 2017,
+    "Subvenció": 2800,
+    "lat": 38.97,
+    "long": 59.556,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Uganda",
+    "Any": 2016,
+    "Subvenció": 8821,
+    "lat": 1.373,
+    "long": 32.29,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Uganda",
+    "Any": 2018,
+    "Subvenció": 11825,
+    "lat": 1.373,
+    "long": 32.29,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Ukraine",
+    "Any": 2015,
+    "Subvenció": 50086,
+    "lat": 48.379,
+    "long": 31.166,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Ukraine",
+    "Any": 2015,
+    "Subvenció": 217366.84,
+    "lat": 48.379,
+    "long": 31.166,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Ukraine",
+    "Any": 2017,
+    "Subvenció": 55797.28,
+    "lat": 48.379,
+    "long": 31.166,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "United Republic of Tanzania",
+    "Any": 2015,
+    "Subvenció": 6756.25,
+    "lat": -6.369,
+    "long": 34.889,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "United Republic of Tanzania",
+    "Any": 2017,
+    "Subvenció": 1375,
+    "lat": -6.369,
+    "long": 34.889,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "United Republic of Tanzania",
+    "Any": 2017,
+    "Subvenció": 4496,
+    "lat": -6.369,
+    "long": 34.889,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Uruguay",
+    "Any": 2015,
+    "Subvenció": 7500,
+    "lat": -32.523,
+    "long": -55.766,
+    "ODS": 11,
+    "ODScolor": "#fd9d24",
+    "ODSlabel": "Sustainable cities and communities"
+  },
+  {
+    "Pais": "Uruguay",
+    "Any": 2015,
+    "Subvenció": 33750,
+    "lat": -32.523,
+    "long": -55.766,
+    "ODS": 8,
+    "ODScolor": "#a21942",
+    "ODSlabel": "Decent work and economic growth"
+  },
+  {
+    "Pais": "Uruguay",
+    "Any": 2015,
+    "Subvenció": 53068.5,
+    "lat": -32.523,
+    "long": -55.766,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Uruguay",
+    "Any": 2015,
+    "Subvenció": 67961.82,
+    "lat": -32.523,
+    "long": -55.766,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Uruguay",
+    "Any": 2016,
+    "Subvenció": 63326,
+    "lat": -32.523,
+    "long": -55.766,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Venezuela",
+    "Any": 2015,
+    "Subvenció": 126139.08,
+    "lat": 6.424,
+    "long": -66.59,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Venezuela",
+    "Any": 2018,
+    "Subvenció": 8458,
+    "lat": 6.424,
+    "long": -66.59,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Viet Nam",
+    "Any": 2015,
+    "Subvenció": 4920,
+    "lat": 14.058,
+    "long": 108.277,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 949,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 0,
+    "ODScolor": "grey",
+    "ODSlabel": "Administrative"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 9589,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 86070.61,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 17,
+    "ODScolor": "#19486A",
+    "ODSlabel": "Partnership for the goals"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 117799.81,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 9,
+    "ODScolor": "#fd6925",
+    "ODSlabel": "Industry. innovation and infraestructure"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 178015.89,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 3,
+    "ODScolor": "#4c9f38",
+    "ODSlabel": "Good Health and well-being"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 218274.9,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 15,
+    "ODScolor": "#56c02b",
+    "ODSlabel": "Life on land"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 349297.1,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 16,
+    "ODScolor": "#00689d",
+    "ODSlabel": "Peace. justice and strong institutions"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2015,
+    "Subvenció": 981729.08,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Western Sahara",
+    "Any": 2016,
+    "Subvenció": 264370.1,
+    "lat": 24.216,
+    "long": -12.886,
+    "ODS": 5,
+    "ODScolor": "#ff3a21",
+    "ODSlabel": "Gender equality"
+  },
+  {
+    "Pais": "Yemen",
+    "Any": 2016,
+    "Subvenció": 20083.3,
+    "lat": 15.553,
+    "long": 48.516,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  },
+  {
+    "Pais": "Yemen",
+    "Any": 2017,
+    "Subvenció": 16920,
+    "lat": 15.553,
+    "long": 48.516,
+    "ODS": 2,
+    "ODScolor": "#dda63a",
+    "ODSlabel": "Zero hunger"
+  },
+  {
+    "Pais": "Zimbabwe",
+    "Any": 2015,
+    "Subvenció": 18174,
+    "lat": -19.015,
+    "long": 29.155,
+    "ODS": 6,
+    "ODScolor": "#26bde2",
+    "ODSlabel": "Clean water and sanitation"
+  },
+  {
+    "Pais": "Zimbabwe",
+    "Any": 2015,
+    "Subvenció": 33803.28,
+    "lat": -19.015,
+    "long": 29.155,
+    "ODS": 4,
+    "ODScolor": "#c5192d",
+    "ODSlabel": "Quality education"
+  }
+]
