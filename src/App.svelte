@@ -19,66 +19,100 @@
 			  :tipusActor.includes(d)? tipusActorColor
 			  : paisColor;
 	}
+	// import data from './data/data.js';
 
-	let yes = false;
+	import Mapy from "./components/Map.svelte";
+	//	import data from './data-processing/sankey/output/data_ods.json'
+  	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+
+
+	let yes = true;
 	
 </script>
 
 <main>
-	<label>
-		<input type=checkbox bind:checked={yes}>
-		Hide Sense Dades, Unknown_TipusActor, Unknown_Area
-	</label>
+	<Tabs>
+		<TabList>
+		  <Tab>Agents</Tab>
+		  <Tab>Països</Tab>
+		  <Tab>Canalització</Tab>
+		  <Tab>Actuacions</Tab>
+		</TabList>
+	  
+		<TabPanel>
+		  <h2>Panel One</h2>
+		</TabPanel>
+	  
+		<TabPanel>
+			<div id="mapid">
+				<Mapy/>
+			</div>
+		</TabPanel>
+	  
+		<TabPanel>
+			<h2>Panel Three</h2>
+			<label>
+				<input type=checkbox bind:checked={yes}>
+				Hide Sense Dades, Unknown_TipusActor, Unknown_Area
+			</label>
+		
+			Year:
+			<select bind:value={selected}>
+				{#each years as year}
+					<option value={year}>
+						{year}
+					</option>
+				{/each}
+			</select>
+			<div class="chart-container" style="height:80vh;">
+				{#if yes}
+					<LayerCake
+					data = {data2[selected]}
+				>
+					<Svg>
+						<Sankey 
+							colorNodes={d => nodeColoring(d.id)}
+							colorLinks={d => '#e3e3e3'} 
+						/>
+					</Svg>
+					<Html>
+						<div>
+							<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+							<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+							<span class="highlight" style="color:{areaColor}"> Area </span>|
+							<span class="highlight" style="color:{paisColor}"> Pais </span> 
+						</div>
+					</Html>
+				</LayerCake>
+				{:else}
+				<LayerCake
+					data = {data[selected]}
+				>
+					<Svg>
+						<Sankey 
+							colorNodes={d => nodeColoring(d.id)}
+							colorLinks={d => '#e3e3e3'} 
+						/>
+					</Svg>
+					<Html>
+						<div>
+							<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+							<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+							<span class="highlight" style="color:{areaColor}"> Area </span>|
+							<span class="highlight" style="color:{paisColor}"> Pais </span> 
+						</div>
+					</Html>
+				</LayerCake>
+				{/if}
+			</div>
+		</TabPanel>
 
-	Year:
-	<select bind:value={selected}>
-		{#each years as year}
-			<option value={year}>
-				{year}
-			</option>
-		{/each}
-	</select>
-	<div class="chart-container" style="height:90vh;">
-		{#if yes}
-			<LayerCake
-			data = {data2[selected]}
-		>
-			<Svg>
-				<Sankey 
-					colorNodes={d => nodeColoring(d.id)}
-					colorLinks={d => '#e3e3e3'} 
-				/>
-			</Svg>
-			<Html>
-				<div>
-					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
-					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
-					<span class="highlight" style="color:{areaColor}"> Area </span>|
-					<span class="highlight" style="color:{paisColor}"> Pais </span> 
-				</div>
-			</Html>
-		</LayerCake>
-		{:else}
-		<LayerCake
-			data = {data[selected]}
-		>
-			<Svg>
-				<Sankey 
-					colorNodes={d => nodeColoring(d.id)}
-					colorLinks={d => '#e3e3e3'} 
-				/>
-			</Svg>
-			<Html>
-				<div>
-					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
-					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
-					<span class="highlight" style="color:{areaColor}"> Area </span>|
-					<span class="highlight" style="color:{paisColor}"> Pais </span> 
-				</div>
-			</Html>
-		</LayerCake>
-		{/if}
-	</div>
+		<TabPanel>
+			<h2>Panell quatre</h2>
+		</TabPanel>
+
+	  </Tabs>
+
 	<!-- <div id="mapid"></div> -->
 </main>
 
@@ -87,6 +121,14 @@
 		height:200vh;
 		margin-bottom:3rem;
 	}
+
+	#mapid {
+	 top: 50px;
+	 left: 150px;
+	 width: 80vw;
+	 height: 600px;
+	}
+
 	/* main {
 		text-align: center;
 		padding: 1em;
@@ -124,4 +166,5 @@
 	  padding: 0.5em;
 	  /* border-radius: 0.5em; */
   }
+
 </style>
