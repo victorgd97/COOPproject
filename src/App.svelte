@@ -1,14 +1,8 @@
 <script>
 	import { LayerCake, Svg, Html } from 'layercake';
-
 	import Sankey from './components/Sankey.svelte';
-
-	// import data from './data/data.js';
-
 	import data from './data/data.json'
-
-	import Tooltip from './components/Tooltip.svelte';
-	import { format } from 'd3-format';
+	import data2 from './data/data_dropna.json'
 
 	let years = Object.keys(data);
 	let selected = '2015';
@@ -27,11 +21,7 @@
 	}
 
 	let yes = false;
-
-	let evt;
-	let hideTooltip = true;
-	const addCommas = format(',');
-
+	
 </script>
 
 <main>
@@ -49,6 +39,26 @@
 		{/each}
 	</select>
 	<div class="chart-container" style="height:90vh;">
+		{#if yes}
+			<LayerCake
+			data = {data2[selected]}
+		>
+			<Svg>
+				<Sankey 
+					colorNodes={d => nodeColoring(d.id)}
+					colorLinks={d => '#e3e3e3'} 
+				/>
+			</Svg>
+			<Html>
+				<div>
+					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+					<span class="highlight" style="color:{areaColor}"> Area </span>|
+					<span class="highlight" style="color:{paisColor}"> Pais </span> 
+				</div>
+			</Html>
+		</LayerCake>
+		{:else}
 		<LayerCake
 			data = {data[selected]}
 		>
@@ -66,24 +76,8 @@
 					<span class="highlight" style="color:{paisColor}"> Pais </span> 
 				</div>
 			</Html>
-			<!-- svelte-ignore missing-declaration -->
-			<Html
-			pointerEvents={false}
-			>
-			{#if hideTooltip !== true}
-				<Tooltip
-					{evt}
-					let:detail
-				>
-				<div class="row"><span>1234</span></div>
-
-					<!-- {#each Object.entries(detail.props) as [key, value]}
-						<div class="row"><span>{key}:</span> {typeof value === 'number' ? addCommas(value) : value}</div>
-					{/each} -->
-				</Tooltip>
-			{/if}
-		</Html>
 		</LayerCake>
+		{/if}
 	</div>
 	<!-- <div id="mapid"></div> -->
 </main>
