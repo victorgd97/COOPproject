@@ -20,11 +20,17 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "d3-color": "^2.0.0",
+    "d3-composite-projections": "^1.4.0",
+    "d3-geo": "^2.0.1",
+    "d3-interpolate": "^2.0.1",
     "d3-sankey": "^0.12.3",
+    "d3-scale": "^3.3.0",
     "leaflet": "^1.7.1",
     "leaflet-sidebar-v2": "^3.2.3",
     "sirv-cli": "^1.0.0",
     "svelte-leafletjs": "^0.6.1",
-    "svelte-tabs": "^1.1.0"
+    "svelte-tabs": "^1.1.0",
+    "topojson": "^3.0.2"
   }
 }

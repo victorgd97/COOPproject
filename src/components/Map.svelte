@@ -1,6 +1,6 @@
 <script>
     import {GeoJSON, LeafletMap, TileLayer, Rectangle} from 'svelte-leafletjs';
-	import Mapdata from '../data/MapData.json';
+    export let list;
 
     const mapOptions = {
         center: [11.250000, 22.917923],
@@ -23,8 +23,8 @@
         },
     };
 
-    Mapdata.map(d => {
-        d.Bounds = [[d.lat-parseInt(d.Subvenció)/2000000,d.long-parseInt(d.Subvenció)/2000000],[d.lat+2+parseInt(d.Subvenció)/2000000,d.long+2+parseInt(d.Subvenció)/2000000]];
+    list.map(d => {
+        d.Bounds = [[d.lat-(d.Subvenció)/2000000,d.long-(d.Subvenció)/2000000],[d.lat+2+(d.Subvenció)/2000000,d.long+2+(d.Subvenció)/2000000]];
         return d;
     })
 
@@ -33,8 +33,10 @@
 <div class="example" style="width: 100%; height: 100%;">
     <LeafletMap options={mapOptions}>
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
-        {#each Mapdata as d}
+        {#each list as d}
+        {#if d.visible === true}
             <Rectangle latLngBounds={d.Bounds} color={d.ODScolor} fillColor={d.ODScolor}/>
+        {/if}
         {/each}
     </LeafletMap>
 </div>
