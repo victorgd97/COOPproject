@@ -5,9 +5,12 @@
 
 	import data from './data/data.js';
 	//imports for Choropleth map
-	import comarData from './data/comarques_data.json'
-	import Catalunya from './data/comarques.json'
-	import Choropleth from "./components/ChoroplethMap.svelte";
+	import munData from './data/municipisPerComarca.json'
+	import comarData from './data/comarcas.json'
+	import provData from './data/provincias.json'
+	import CatalunyaCom from './data/polygonsComarcas.json'
+	import CatalunyaProv from './data/polygonsProvincias.json'
+	import ChoroplethMap from './components/ChoroplethMap.svelte';
 	import { geoWinkel3 } from 'd3-geo-projection';
 	import { scaleQuantize } from 'd3-scale';
 	import {extent} from 'd3-array';
@@ -18,18 +21,12 @@
 	//imports for global map
 	import Mapy from "./components/Map.svelte";
 	import Mapdata from './data/MapData.json';
-	import ChoroplethMap from './components/ChoroplethMap.svelte';
 	
 	//imports for treemap
 	import Treemap from "./components/TreemapApp.svelte";
 	import dataTreemap from './data/dataTreemap_all.json';
 
 	//Code for choropleth
-	comarData.map(d => {
-		d.AOD_2015 = ["d.Ingressos_propis_2015/d.07_2015"]
-		return d;
-	})
-
 	const palette = () => {
 		const _extent = extent(comarData, d => d.AOD_2015)
 		const max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
@@ -47,36 +44,85 @@
 	
 	let comarDataFiltered = comarData;
 	let yearsAOD = ["2015","2016","2017"];
+	let GovLevels = ["Municipis","Comarques","Provincies"]
 	let selectedYearAOD;
+	let selectedGovLev;
+	let selectedData = [];
+	let DataFiltered = [];
+	let topojson = [];
+	let comar = true;
+
+	comar = comar ? false : true;
+
+	if (selectedGovLev === "Provincies"){
+		topojson = CatalunyaProv,
+		comar = false
+	}
+	else {
+		topojson = CatalunyaCom,
+		comar = true
+	}
+
+	function filterGov(d) {
+		selectedGovLev = d;
+		{if (selectedGovLev === "Municipis"){
+			selectedData = munData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: +d["Codi comarca"],
+				AOD_2015: +d.AOD_2015,
+				AOD_2016: +d.AOD_2016, 
+				AOD_2017: +d.AOD_2017
+					};}
+				);
+			}
+		else if (selectedGovLev === "Comarques"){
+			selectedData = comarData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: +d["Codi comarca"],
+				AOD_2015: +d.AOD_2015,
+				AOD_2016: +d.AOD_2016, 
+				AOD_2017: +d.AOD_2017 
+					};}
+     			);
+			} 
+		else if (selectedGovLev === "Provincies"){
+			selectedData = provData.map(d => {return {
+				Ens: d.Provincias,
+				Codi: +d["Codi provincia"],
+				AOD_2015: +d.AOD_2015,
+				AOD_2016: +d.AOD_2016, 
+				AOD_2017: +d.AOD_2017 
+					};}
+     			);
+			} 
+		} 
+	}
 
 	function filterAOD(d) {
 		selectedYearAOD = d;
 		{if (selectedYearAOD === "2015"){
-			comarDataFiltered = comarData.map(d => {return {
-				comarca: d.Ens_Local,
-				Codi_comarca: d.Codi_comarca,
-				AOD: +d["07_2015"],
-				Ingressos_propis_2015: d.Ingressos_propis_2015, 
+			DataFiltered = selectedData.map(d => {return {
+				Ens: d.Ens,
+				Codi: +d.Codi,
+				AOD: +d.AOD_2015,
 					};}
 				);
 			}
 		else if (selectedYearAOD === "2016"){
-			comarDataFiltered = comarData.map(d => {return {
-				comarca: d.Ens_Local,
-				Codi_comarca: +d.Codi_comarca,
-				AOD: +d["07_2016"],
-				Ingressos_propis_2015: +d.Ingressos_propis_2015, 
+			DataFiltered = selectedData.map(d => {return {
+				Ens: d.Ens,
+				Codi: +d.Codi,
+				AOD: +d.AOD_2016,
 					};}
-     			);
-			} 
+				);
+			}
 		else if (selectedYearAOD === "2017"){
-			comarDataFiltered = comarData.map(d => {return {
-				comarca: d.Ens_Local,
-				Codi_comarca: +d.Codi_comarca,
-				AOD: +d["07_2017"],
-				Ingressos_propis_2015: +d.Ingressos_propis_2015, 
+			DataFiltered = selectedData.map(d => {return {
+				Ens: d.Ens,
+				Codi: +d.Codi,
+				AOD: +d.AOD_2017,
 					};}
-     			);
+				);
 			}
 		} 
 	}
@@ -115,6 +161,16 @@
 	  
 		<TabPanel>
 			<select
+			bind:value={selectedGovLev}
+			on:change={filterGov(selectedGovLev)}
+		>
+			{#each GovLevels as GovLev}
+				<option value={GovLev}>
+					{GovLev}
+				</option>
+			{/each}
+		</select>
+			<select
 				bind:value={selectedYearAOD}
 				on:change={filterAOD(selectedYearAOD)}
 			>
@@ -126,13 +182,15 @@
 			</select>
 			<div id="mapidC">
 				<ChoroplethMap 
-				data={comarDataFiltered}
-				map={Catalunya}
+				data={DataFiltered}
+				map={topojson}
 				geo='countries'
 				scale={palette()}
 				projection={projection}
-				join={{data:'Codi_comarca', map:'COMARCA'}}
-				value={comarDataFiltered.AOD}
+				join={comar
+					? {data:'Codi', map:'COMARCA'}
+					: {data:'Codi', map:'CODIPROV'}}
+				value='AOD'
 				legend={{title: '', format: ''}}
 				layout='wide'
 			/>
