@@ -14,10 +14,12 @@
 
 	//	import data from './data-processing/sankey/output/data_ods.json'
 	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+
 	//imports for global map
 	import Mapy from "./components/Map.svelte";
 	import Mapdata from './data/MapData.json';
 	import ChoroplethMap from './components/ChoroplethMap.svelte';
+	
 	//imports for treemap
 	import Treemap from "./components/TreemapApp.svelte";
 	import dataTreemap from './data/dataTreemap_all.json';
