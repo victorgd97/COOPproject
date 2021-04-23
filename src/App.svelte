@@ -8,6 +8,9 @@
 	import Mapy from "./components/Map.svelte";
 	//	import data from './data-processing/sankey/output/data_ods.json'
   import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+  
+  import Treemap from "./components/TreemapApp.svelte";
+  import dataTreemap from './data/dataTreemap_all.json';
 
 
 </script>
@@ -37,6 +40,7 @@
 
 		<TabPanel>
 			<h2>Panell quatre</h2>
+			<Treemap />
 		</TabPanel>
 
 	  </Tabs>
