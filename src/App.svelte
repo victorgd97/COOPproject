@@ -5,15 +5,15 @@
 
 	import data from './data/data.js';
 	//imports for Choropleth map
-	import munData from './data/municipisPerComarca.json'
+ 	import munData from './data/municipisPerComarca.json'
 	import comarData from './data/comarcas.json'
 	import provData from './data/provincias.json'
-	import CatalunyaCom from './data/polygonsComarcas.json'
+ 	import CatalunyaCom from './data/polygonsComarcas.json'
 	import CatalunyaProv from './data/polygonsProvincias.json'
 	import ChoroplethMap from './components/ChoroplethMap.svelte';
-	import { geoWinkel3 } from 'd3-geo-projection';
+	import {geoMercator} from 'd3-geo';
 	import { scaleQuantize } from 'd3-scale';
-	import {extent} from 'd3-array';
+	import {extent} from 'd3-array'; 
 
 	//	import data from './data-processing/sankey/output/data_ods.json'
 	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
@@ -38,21 +38,18 @@
 				.nice();
 	}  
 
-	const projection = geoWinkel3()
-				.rotate([-11, 0])
-				.precision(1);
-	
-	let comarDataFiltered = comarData;
-	let yearsAOD = ["2015","2016","2017"];
+	const projection = geoMercator()
+	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
+/*	let yearsAOD = ["2015","2016","2017"];
 	let GovLevels = ["Municipis","Comarques","Provincies"]
 	let selectedYearAOD;
 	let selectedGovLev;
 	let selectedData = [];
 	let DataFiltered = [];
-	let topojson = [];
+	let topojson;
 	let comar = true;
 
-	comar = comar ? false : true;
+ 	comar = comar ? false : true;
 
 	if (selectedGovLev === "Provincies"){
 		topojson = CatalunyaProv,
@@ -125,7 +122,7 @@
 				);
 			}
 		} 
-	}
+	} */
 	//Code for global map
 	Mapdata.map(d => {
 		d.visible = true;
@@ -160,7 +157,7 @@
 		</TabList>
 	  
 		<TabPanel>
-			<select
+			<!-- <select
 			bind:value={selectedGovLev}
 			on:change={filterGov(selectedGovLev)}
 		>
@@ -179,22 +176,20 @@
 						{yearAOD}
 					</option>
 				{/each}
-			</select>
-			<div id="mapidC">
+			</select> -->
+			  <div id="mapidC">
 				<ChoroplethMap 
-				data={DataFiltered}
-				map={topojson}
-				geo='countries'
+				data={comarData}
+				map={CatalunyaCom}
+				geo='comarquesWGS84(EPSG4326)' 
 				scale={palette()}
 				projection={projection}
-				join={comar
-					? {data:'Codi', map:'COMARCA'}
-					: {data:'Codi', map:'CODIPROV'}}
-				value='AOD'
+				join={{data:'Codi comarca', map:'COMARCA'}}
+				value='AOD_2015'
 				legend={{title: '', format: ''}}
 				layout='wide'
 			/>
-			</div>
+			</div>  
 		</TabPanel>
 	  
 		<TabPanel>
@@ -221,7 +216,7 @@
 
 		<TabPanel>
 			<h2>Panell quatre</h2>
-			<Treemap />
+			 <Treemap />
 		</TabPanel>
 
 	  </Tabs>
