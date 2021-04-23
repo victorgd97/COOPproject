@@ -17,7 +17,10 @@
 	//imports for global map
 	import Mapy from "./components/Map.svelte";
 	import Mapdata from './data/MapData.json';
-import ChoroplethMap from './components/ChoroplethMap.svelte';
+	import ChoroplethMap from './components/ChoroplethMap.svelte';
+	//imports for treemap
+	import Treemap from "./components/TreemapApp.svelte";
+	import dataTreemap from './data/dataTreemap_all.json';
 
 	//Code for choropleth
 	comarData.map(d => {
@@ -34,7 +37,7 @@ import ChoroplethMap from './components/ChoroplethMap.svelte';
 				.range(['#ffe461', '#ffc755', '#fea94d', '#f68c4a', '#ea704a', '#da554e', '#c73a55', '#ae1f5f', '#90006c'])
 				.domain([... Array(9)].map((_d, i) => min + d * i))
 				.nice();
-	}
+	}  
 
 	const projection = geoWinkel3()
 				.rotate([-11, 0])
@@ -158,6 +161,7 @@ import ChoroplethMap from './components/ChoroplethMap.svelte';
 
 		<TabPanel>
 			<h2>Panell quatre</h2>
+			<Treemap />
 		</TabPanel>
 
 	  </Tabs>
