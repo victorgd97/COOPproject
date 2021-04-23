@@ -1,26 +1,7 @@
 [
   {
-    "Comarcas": "Consell Generau d'Aran",
-    "07_2015": 13004.69,
-    "07_2016": 13200.17,
-    "07_2017": 13176.47,
-    "Ingressos_propis_2015": 1882352.55,
-    "AOD_2015": 0.69,
-    "AOD_2016": 0.7,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal d'Osona",
-    "07_2015": 42042.21,
-    "07_2016": 85530.16,
-    "07_2017": 70367.6,
-    "Ingressos_propis_2015": 10052514,
-    "AOD_2015": 0.42,
-    "AOD_2016": 0.85,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de l'Alt Camp",
+    "Comarcas": "Alt Camp",
+    "Codi comarca": 1,
     "07_2015": 913.92,
     "07_2016": 603.74,
     "07_2017": 530.82,
@@ -30,7 +11,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal de l'Alt Empordà",
+    "Comarcas": "Alt Empordà",
+    "Codi comarca": 2,
     "07_2015": 50063.01,
     "07_2016": 20331.28,
     "07_2017": 22634,
@@ -40,7 +22,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal de l'Alt Penedès",
+    "Comarcas": "Alt Penedès",
+    "Codi comarca": 3,
     "07_2015": 1749.14,
     "07_2016": 1933.06,
     "07_2017": 2383.21,
@@ -50,7 +33,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal de l'Alt Urgell",
+    "Comarcas": "Alt Urgell",
+    "Codi comarca": 4,
     "07_2015": 927.93,
     "07_2016": 816.82,
     "07_2017": 858.79,
@@ -60,7 +44,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal de l'Alta Ribagorça",
+    "Comarcas": "Alta Ribagorça",
+    "Codi comarca": 5,
     "07_2015": 4282.42,
     "07_2016": 4209.18,
     "07_2017": 4214.98,
@@ -70,117 +55,19 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal de l'Anoia",
-    "07_2015": 6026.37,
-    "07_2016": 6414.28,
-    "07_2017": 6518.87,
-    "Ingressos_propis_2015": 931267,
-    "AOD_2015": 0.65,
-    "AOD_2016": 0.69,
-    "AOD_2017": 0.7
+    "Comarcas": "Anoia",
+    "Codi comarca": 6,
+    "07_2015": 6026.44,
+    "07_2016": 6414.35,
+    "07_2017": 6518.94,
+    "Ingressos_propis_2015": 931277,
+    "AOD_2015": 1.35,
+    "AOD_2016": 1.39,
+    "AOD_2017": 1.4
   },
   {
-    "Comarcas": "Consell Comarcal de l'Urgell",
-    "07_2015": 4145.95,
-    "07_2016": 4657.4,
-    "07_2017": 3695.71,
-    "Ingressos_propis_2015": 527958,
-    "AOD_2015": 0.79,
-    "AOD_2016": 0.88,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Cerdanya",
-    "07_2015": 6188,
-    "07_2016": 7028,
-    "07_2017": 1556.8,
-    "Ingressos_propis_2015": 222400,
-    "AOD_2015": 2.78,
-    "AOD_2016": 3.16,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Conca de Barberà",
-    "07_2015": 4066.3,
-    "07_2016": 4386.9,
-    "07_2017": 5055.4,
-    "Ingressos_propis_2015": 722200,
-    "AOD_2015": 0.56,
-    "AOD_2016": 0.61,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Garrotxa",
-    "07_2015": 52589.31,
-    "07_2016": 56001.69,
-    "07_2017": 56222.02,
-    "Ingressos_propis_2015": 8031716.87,
-    "AOD_2015": 0.65,
-    "AOD_2016": 0.7,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Noguera",
-    "07_2015": 5162.98,
-    "07_2016": 5559.85,
-    "07_2017": 7245.22,
-    "Ingressos_propis_2015": 1035032.04,
-    "AOD_2015": 0.5,
-    "AOD_2016": 0.54,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Ribera d'Ebre",
-    "07_2015": 8018.79,
-    "07_2016": 7411.68,
-    "07_2017": 7514.23,
-    "Ingressos_propis_2015": 1073461.71,
-    "AOD_2015": 0.75,
-    "AOD_2016": 0.69,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Segarra",
-    "07_2015": 13479.83,
-    "07_2016": 14425.52,
-    "07_2017": 14090.97,
-    "Ingressos_propis_2015": 2012995.49,
-    "AOD_2015": 0.67,
-    "AOD_2016": 0.72,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Selva",
-    "07_2015": 60416.28,
-    "07_2016": 42985.89,
-    "07_2017": 45412.94,
-    "Ingressos_propis_2015": 6487563.39,
-    "AOD_2015": 0.93,
-    "AOD_2016": 0.66,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de la Terra Alta",
-    "07_2015": 1712.34,
-    "07_2016": 1752.69,
-    "07_2017": 2456.57,
-    "Ingressos_propis_2015": 350939.04,
-    "AOD_2015": 0.49,
-    "AOD_2016": 0.5,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal de les Garrigues",
-    "07_2015": 9649.6,
-    "07_2016": 2909.55,
-    "07_2017": 3221.75,
-    "Ingressos_propis_2015": 460250,
-    "AOD_2015": 2.1,
-    "AOD_2016": 0.63,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Comarcal del Bages",
+    "Comarcas": "Bages",
+    "Codi comarca": 7,
     "07_2015": 507.85,
     "07_2016": 552.69,
     "07_2017": 264.56,
@@ -190,7 +77,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Baix Camp",
+    "Comarcas": "Baix Camp",
+    "Codi comarca": 8,
     "07_2015": 3173.1,
     "07_2016": 3184.24,
     "07_2017": 4026.94,
@@ -200,7 +88,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Baix Ebre",
+    "Comarcas": "Baix Ebre",
+    "Codi comarca": 9,
     "07_2015": 1214.27,
     "07_2016": 1455.18,
     "07_2017": 1444.94,
@@ -210,7 +99,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Baix Empordà",
+    "Comarcas": "Baix Empordà",
+    "Codi comarca": 10,
     "07_2015": 35335.29,
     "07_2016": 36647.31,
     "07_2017": 35204.37,
@@ -220,7 +110,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Baix Llobregat",
+    "Comarcas": "Baix Llobregat",
+    "Codi comarca": 11,
     "07_2015": 10626.21,
     "07_2016": 8070.81,
     "07_2017": 5983.18,
@@ -230,7 +121,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Baix Penedès",
+    "Comarcas": "Baix Penedès",
+    "Codi comarca": 12,
     "07_2015": 1010.96,
     "07_2016": 1376.35,
     "07_2017": 1964.4,
@@ -240,7 +132,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Barcelonès",
+    "Comarcas": "Barcelonès",
+    "Codi comarca": 13,
     "07_2015": 4647.06,
     "07_2016": 4803.41,
     "07_2017": 4914.15,
@@ -250,7 +143,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Berguedà",
+    "Comarcas": "Berguedà",
+    "Codi comarca": 14,
     "07_2015": 4855.95,
     "07_2016": 5313.69,
     "07_2017": 5369.47,
@@ -260,7 +154,30 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Garraf",
+    "Comarcas": "Cerdanya",
+    "Codi comarca": 15,
+    "07_2015": 6188,
+    "07_2016": 7028,
+    "07_2017": 1556.8,
+    "Ingressos_propis_2015": 222400,
+    "AOD_2015": 2.78,
+    "AOD_2016": 3.16,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Conca de Barberà",
+    "Codi comarca": 16,
+    "07_2015": 4066.3,
+    "07_2016": 4386.9,
+    "07_2017": 5055.4,
+    "Ingressos_propis_2015": 722200,
+    "AOD_2015": 0.56,
+    "AOD_2016": 0.61,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Garraf",
+    "Codi comarca": 17,
     "07_2015": 1362.81,
     "07_2016": 896.03,
     "07_2017": 915.2,
@@ -270,7 +187,30 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Gironès",
+    "Comarcas": "Garrigues",
+    "Codi comarca": 18,
+    "07_2015": 9649.6,
+    "07_2016": 2909.55,
+    "07_2017": 3221.75,
+    "Ingressos_propis_2015": 460250,
+    "AOD_2015": 2.1,
+    "AOD_2016": 0.63,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Garrotxa",
+    "Codi comarca": 19,
+    "07_2015": 52589.31,
+    "07_2016": 56001.69,
+    "07_2017": 56222.02,
+    "Ingressos_propis_2015": 8031716.87,
+    "AOD_2015": 0.65,
+    "AOD_2016": 0.7,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Gironès",
+    "Codi comarca": 20,
     "07_2015": 10111.06,
     "07_2016": 9339.47,
     "07_2017": 9658.37,
@@ -280,7 +220,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Maresme",
+    "Comarcas": "Maresme",
+    "Codi comarca": 21,
     "07_2015": 102809.37,
     "07_2016": 113767.73,
     "07_2017": 112734.41,
@@ -290,7 +231,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Montsià",
+    "Comarcas": "Montsià",
+    "Codi comarca": 22,
     "07_2015": 556.89,
     "07_2016": 661.15,
     "07_2017": 552.8,
@@ -300,7 +242,30 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Pallars Jussà",
+    "Comarcas": "Noguera",
+    "Codi comarca": 23,
+    "07_2015": 5162.98,
+    "07_2016": 5559.85,
+    "07_2017": 7245.22,
+    "Ingressos_propis_2015": 1035032.04,
+    "AOD_2015": 0.5,
+    "AOD_2016": 0.54,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Osona",
+    "Codi comarca": 24,
+    "07_2015": 42042.21,
+    "07_2016": 85530.16,
+    "07_2017": 70367.6,
+    "Ingressos_propis_2015": 10052514,
+    "AOD_2015": 0.42,
+    "AOD_2016": 0.85,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Pallars Jussà",
+    "Codi comarca": 25,
     "07_2015": 10591.68,
     "07_2016": 7011.98,
     "07_2017": 7021.63,
@@ -310,7 +275,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Pallars Sobirà",
+    "Comarcas": "Pallars Sobirà",
+    "Codi comarca": 26,
     "07_2015": 8022.53,
     "07_2016": 8586.6,
     "07_2017": 9096.1,
@@ -320,7 +286,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Pla d'Urgell",
+    "Comarcas": "Pla d'Urgell",
+    "Codi comarca": 27,
     "07_2015": 24874.05,
     "07_2016": 27398.16,
     "07_2017": 29011.16,
@@ -330,7 +297,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Pla de l'Estany",
+    "Comarcas": "Pla de l'Estany",
+    "Codi comarca": 28,
     "07_2015": 12121.82,
     "07_2016": 12618.17,
     "07_2017": 13290.4,
@@ -340,7 +308,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Priorat",
+    "Comarcas": "Priorat",
+    "Codi comarca": 29,
     "07_2015": 3995.6,
     "07_2016": 3869.6,
     "07_2017": 3890.15,
@@ -350,7 +319,19 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Ripollès",
+    "Comarcas": "Ribera d'Ebre",
+    "Codi comarca": 30,
+    "07_2015": 8018.79,
+    "07_2016": 7411.68,
+    "07_2017": 7514.23,
+    "Ingressos_propis_2015": 1073461.71,
+    "AOD_2015": 0.75,
+    "AOD_2016": 0.69,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Ripollès",
+    "Codi comarca": 31,
     "07_2015": 13504.45,
     "07_2016": 12978.66,
     "07_2017": 11554.99,
@@ -360,7 +341,19 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Segrià",
+    "Comarcas": "Segarra",
+    "Codi comarca": 32,
+    "07_2015": 13479.83,
+    "07_2016": 14425.52,
+    "07_2017": 14090.97,
+    "Ingressos_propis_2015": 2012995.49,
+    "AOD_2015": 0.67,
+    "AOD_2016": 0.72,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Segrià",
+    "Codi comarca": 33,
     "07_2015": 2848.26,
     "07_2016": 9548.51,
     "07_2017": 15008.92,
@@ -370,7 +363,19 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Solsonès",
+    "Comarcas": "Selva",
+    "Codi comarca": 34,
+    "07_2015": 60416.28,
+    "07_2016": 42985.89,
+    "07_2017": 45412.94,
+    "Ingressos_propis_2015": 6487563.39,
+    "AOD_2015": 0.93,
+    "AOD_2016": 0.66,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Solsonès",
+    "Codi comarca": 35,
     "07_2015": 4225.9,
     "07_2016": 3707.69,
     "07_2017": 5985.25,
@@ -380,7 +385,8 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Tarragonès",
+    "Comarcas": "Tarragonès",
+    "Codi comarca": 36,
     "07_2015": 230.3,
     "07_2016": 262.99,
     "07_2017": 327.25,
@@ -390,7 +396,41 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Vallès Occidental",
+    "Comarcas": "Terra Alta",
+    "Codi comarca": 37,
+    "07_2015": 1712.34,
+    "07_2016": 1752.69,
+    "07_2017": 2456.57,
+    "Ingressos_propis_2015": 350939.04,
+    "AOD_2015": 0.49,
+    "AOD_2016": 0.5,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Urgell",
+    "Codi comarca": 38,
+    "07_2015": 4145.95,
+    "07_2016": 4657.4,
+    "07_2017": 3695.71,
+    "Ingressos_propis_2015": 527958,
+    "AOD_2015": 0.79,
+    "AOD_2016": 0.88,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Val d'Aran",
+    "Codi comarca": 39,
+    "07_2015": 13004.69,
+    "07_2016": 13200.17,
+    "07_2017": 13176.47,
+    "Ingressos_propis_2015": 1882352.55,
+    "AOD_2015": 0.69,
+    "AOD_2016": 0.7,
+    "AOD_2017": 0.7
+  },
+  {
+    "Comarcas": "Vallès Occidental",
+    "Codi comarca": 40,
     "07_2015": 8826.73,
     "07_2016": 8572.65,
     "07_2017": 8262.3,
@@ -400,23 +440,14 @@
     "AOD_2017": 0.7
   },
   {
-    "Comarcas": "Consell Comarcal del Vallès Oriental",
+    "Comarcas": "Vallès Oriental",
+    "Codi comarca": 41,
     "07_2015": 2699.71,
     "07_2016": 2605.99,
     "07_2017": 2953.44,
     "Ingressos_propis_2015": 421920.55,
     "AOD_2015": 0.64,
     "AOD_2016": 0.62,
-    "AOD_2017": 0.7
-  },
-  {
-    "Comarcas": "Consell Econòmic i Social de la Comarca de l'Anoia (CESCA)",
-    "07_2015": 0.07,
-    "07_2016": 0.07,
-    "07_2017": 0.07,
-    "Ingressos_propis_2015": 10,
-    "AOD_2015": 0.7,
-    "AOD_2016": 0.7,
     "AOD_2017": 0.7
   }
 ]
