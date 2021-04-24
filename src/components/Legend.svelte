@@ -5,7 +5,7 @@
 	export let mapWidth;
 	export let mapHeight;
 	export let width = 320;
-	export let position = ['top', 'center'];
+	export let position = ['bottom', 'center'];
 	export let format;
 	
 	$: t = position[0] === 'top'
@@ -17,7 +17,7 @@
 	$: l = position[1] === 'left'
 		? 0
 		: position[1] === 'center'
-		? mapWidth / 2 - width / 2
+		? 60+mapWidth / 2 - width / 2
 		: position[1] === 'right'
 		? mapWidth - width
 		: position[1];

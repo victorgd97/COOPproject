@@ -12,7 +12,7 @@
 	import CatalunyaProv from './data/polygonsProvincias.json'
 	import ChoroplethMap from './components/ChoroplethMap.svelte';
 	import {geoMercator} from 'd3-geo';
-	import { scaleQuantize } from 'd3-scale';
+	import { scaleQuantile } from 'd3-scale';
 	import {extent} from 'd3-array'; 
 
 	//	import data from './data-processing/sankey/output/data_ods.json'
@@ -32,10 +32,9 @@
 		const max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
 		const min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
 		const d = (max-min)/9;
-		return scaleQuantize()
+		return scaleQuantile()
 				.range(['#ffe461', '#ffc755', '#fea94d', '#f68c4a', '#ea704a', '#da554e', '#c73a55', '#ae1f5f', '#90006c'])
-				.domain([... Array(9)].map((_d, i) => min + d * i))
-				.nice();
+				.domain([... Array(9)].map((_d, i) => min + d * i));
 	}  
 
 	const projection = geoMercator()
