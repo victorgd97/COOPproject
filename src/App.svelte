@@ -39,6 +39,11 @@
 	}  
 
 	const projection = geoMercator()
+
+	comarData.map(d => {
+		d.codi = d.Codi_comarca.toString();
+		return d;
+	})
 	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
 /*	let yearsAOD = ["2015","2016","2017"];
 	let GovLevels = ["Municipis","Comarques","Provincies"]
@@ -184,7 +189,7 @@
 				geo='comarquesWGS84(EPSG4326)' 
 				scale={palette()}
 				projection={projection}
-				join={{data:'Codi comarca', map:'COMARCA'}}
+				join={{data:'codi', map:'COMARCA'}}
 				value='AOD_2015'
 				legend={{title: '', format: ''}}
 				layout='wide'

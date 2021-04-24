@@ -34,7 +34,7 @@ $: handleHover = (e, _id) => {
   
   const d = data.find(d => d[join.data] === _id);
   const tip = (d !== undefined)
-    ? ''
+    ? 'Comarca: '+ d.Comarcas + '<br> AOD: ' + d.AOD_2015
     : '';
   tooltipOptions = {x: x, y: y, tip: tip, visible: visible}
 }
