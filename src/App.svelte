@@ -1,50 +1,60 @@
 <script>
-	import { LayerCake, Svg } from 'layercake';
+	import { LayerCake, Svg } from "layercake";
 
-	import Sankey from './components/Sankey.svelte';
+	import Sankey from "./components/Sankey.svelte";
 
-	import data from './data/data.js';
+	import data from "./data/data.js";
 	//imports for Choropleth map
- 	import munData from './data/municipisPerComarca.json'
-	import comarData from './data/comarcas.json'
-	import provData from './data/provincias.json'
- 	import CatalunyaCom from './data/polygonsComarcas.json'
-	import CatalunyaProv from './data/polygonsProvincias.json'
-	import ChoroplethMap from './components/ChoroplethMap.svelte';
-	import {geoMercator} from 'd3-geo';
-	import { scaleQuantile } from 'd3-scale';
-	import {extent} from 'd3-array'; 
+	import munData from "./data/municipisPerComarca.json";
+	import comarData from "./data/comarcas.json";
+	import provData from "./data/provincias.json";
+	import CatalunyaCom from "./data/polygonsComarcas.json";
+	import CatalunyaProv from "./data/polygonsProvincias.json";
+	import ChoroplethMap from "./components/ChoroplethMap.svelte";
+	import { geoMercator } from "d3-geo";
+	import { scaleQuantile } from "d3-scale";
+	import { extent } from "d3-array";
 
 	//	import data from './data-processing/sankey/output/data_ods.json'
-	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+	import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
 
 	//imports for global map
 	import Mapy from "./components/Map.svelte";
-	import Mapdata from './data/MapData.json';
-	
+	import Mapdata from "./data/MapData.json";
+
 	//imports for treemap
 	import Treemap from "./components/TreemapApp.svelte";
-	import dataTreemap from './data/dataTreemap_all.json';
+	import dataTreemap from "./data/dataTreemap_all.json";
 
 	//Code for choropleth
 	const palette = () => {
-		const _extent = extent(comarData, d => d.AOD_2015)
+		const _extent = extent(comarData, (d) => d.AOD_2015);
 		const max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
 		const min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
-		const d = (max-min)/9;
+		const d = (max - min) / 9;
 		return scaleQuantile()
-				.range(['#ffe461', '#ffc755', '#fea94d', '#f68c4a', '#ea704a', '#da554e', '#c73a55', '#ae1f5f', '#90006c'])
-				.domain([... Array(9)].map((_d, i) => min + d * i));
-	}  
+			.range([
+				"#ffe461",
+				"#ffc755",
+				"#fea94d",
+				"#f68c4a",
+				"#ea704a",
+				"#da554e",
+				"#c73a55",
+				"#ae1f5f",
+				"#90006c",
+			])
+			.domain([...Array(9)].map((_d, i) => min + d * i));
+	};
 
-	const projection = geoMercator()
+	const projection = geoMercator();
 
-	comarData.map(d => {
+	comarData.map((d) => {
 		d.codi = d.Codi_comarca.toString();
 		return d;
-	})
+	});
 	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
-/*	let yearsAOD = ["2015","2016","2017"];
+	/*	let yearsAOD = ["2015","2016","2017"];
 	let GovLevels = ["Municipis","Comarques","Provincies"]
 	let selectedYearAOD;
 	let selectedGovLev;
@@ -128,38 +138,39 @@
 		} 
 	} */
 	//Code for global map
-	Mapdata.map(d => {
+	Mapdata.map((d) => {
 		d.visible = true;
 		return d;
-	})
+	});
 
 	let listFiltered = Mapdata;
 	let years = [...new Set(Mapdata.map((d) => d.Any))];
 	let selectedYear;
 
-
 	function filter(d) {
 		selectedYear = d;
-		listFiltered =
-    		Mapdata.map((d) => {if (d.Any === selectedYear) {
-        	    d.visible = true;
-        			} else {
-           		d.visible = false;
-        	}
-        	return d;
-        });
+		listFiltered = Mapdata.map((d) => {
+			if (d.Any === selectedYear) {
+				d.visible = true;
+			} else {
+				d.visible = false;
+			}
+			return d;
+		});
 	}
 </script>
 
 <main>
 	<Tabs>
-		<TabList>
-		  <Tab>Agents</Tab>
-		  <Tab>Països</Tab>
-		  <Tab>Canalització</Tab>
-		  <Tab>Actuacions</Tab>
-		</TabList>
-	  
+		<div class="tabnavbar">
+			<TabList>
+				<Tab>Agents</Tab>
+				<Tab>Països</Tab>
+				<Tab>Canalització</Tab>
+				<Tab>Actuacions</Tab>
+			</TabList>
+		</div>
+
 		<TabPanel>
 			<!-- <select
 			bind:value={selectedGovLev}
@@ -181,66 +192,121 @@
 					</option>
 				{/each}
 			</select> -->
-			  <div id="mapidC">
-				<ChoroplethMap 
-				data={comarData}
-				map={CatalunyaCom}
-				geo='comarquesWGS84(EPSG4326)' 
-				scale={palette()}
-				projection={projection}
-				join={{data:'codi', map:'COMARCA'}}
-				value='AOD_2015'
-				legend={{title: '', format: ''}}
-				layout='wide'
-			/>
-			</div>  
-		</TabPanel>
-	  
-		<TabPanel>
-			<select
-          		bind:value={selectedYear}
-          		on:change={filter(selectedYear)}
-        	>
-				{#each years as year}
-					<option value={year}>
-						{year}
-            		</option>
-          		{/each}
-        	</select>
-			<div id="mapid">
-				<Mapy
-				list={listFiltered}
+			<div class="description">
+				<h1>Agents</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur diam eros, molestie viverra metus nec, aliquam
+					porttitor purus. Donec porttitor urna sit amet ex consequat,
+					id viverra ipsum porta. Sed nulla ante, pellentesque eget
+					aliquet eu, convallis quis turpis. Proin dignissim lacus
+					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
+					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
+					at aliquam lorem aliquet eget.
+				</p>
+			</div>
+			<div id="mapidC">
+				<ChoroplethMap
+					data={comarData}
+					map={CatalunyaCom}
+					geo="comarquesWGS84(EPSG4326)"
+					scale={palette()}
+					{projection}
+					join={{ data: "codi", map: "COMARCA" }}
+					value="AOD_2015"
+					legend={{ title: "", format: "" }}
+					layout="wide"
 				/>
 			</div>
 		</TabPanel>
-	  
+
 		<TabPanel>
-		  <h2>Panel Three</h2>
+			<div class="description">
+				<h1>Països</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur diam eros, molestie viverra metus nec, aliquam
+					porttitor purus. Donec porttitor urna sit amet ex consequat,
+					id viverra ipsum porta. Sed nulla ante, pellentesque eget
+					aliquet eu, convallis quis turpis. Proin dignissim lacus
+					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
+					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
+					at aliquam lorem aliquet eget.
+				</p>
+			</div>
+			<select bind:value={selectedYear} on:change={filter(selectedYear)}>
+				{#each years as year}
+					<option value={year}>
+						{year}
+					</option>
+				{/each}
+			</select>
+			<div id="mapid">
+				<Mapy list={listFiltered} />
+			</div>
 		</TabPanel>
 
 		<TabPanel>
-			<h2>Panell quatre</h2>
-			 <Treemap />
+			<div class="description">
+				<h1>Canalització</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur diam eros, molestie viverra metus nec, aliquam
+					porttitor purus. Donec porttitor urna sit amet ex consequat,
+					id viverra ipsum porta. Sed nulla ante, pellentesque eget
+					aliquet eu, convallis quis turpis. Proin dignissim lacus
+					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
+					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
+					at aliquam lorem aliquet eget.
+				</p>
+			</div>
 		</TabPanel>
 
-	  </Tabs>
-
-
+		<TabPanel>
+			<div class="description">
+				<h1>Actuacions</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur diam eros, molestie viverra metus nec, aliquam
+					porttitor purus. Donec porttitor urna sit amet ex consequat,
+					id viverra ipsum porta. Sed nulla ante, pellentesque eget
+					aliquet eu, convallis quis turpis. Proin dignissim lacus
+					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
+					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
+					at aliquam lorem aliquet eget.
+				</p>
+			</div>
+			<Treemap />
+		</TabPanel>
+	</Tabs>
 </main>
 
 <style>
 	#mapid {
-	 top: 50px;
-	 left: 150px;
-	 width: 80vw;
-	 height: 600px;
+		top: 50px;
+		left: 150px;
+		width: 100vw;
+		height: 700px;
 	}
-	
+
 	#mapidC {
-	 top: 50px;
-	 left: 150px;
-	 width: 80vw;
-	 height: 600px;
+		top: 50px;
+		left: 150px;
+		width: 80vw;
+		height: 600px;
+	}
+
+	.description {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px;
+		margin: 20px 10% 20px 10%;
+	}
+
+	.tabnavbar {
+		background-color: #ffffff;
+		box-shadow: 0px 0px 5px #bdbdbd;
 	}
 
 	/* main {
@@ -269,5 +335,4 @@
 		The point being it needs dimensions since the <LayerCake> element will
 		expand to fill it.
 	*/
-
 </style>

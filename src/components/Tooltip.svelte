@@ -23,9 +23,11 @@
 	.tooltip {
 		position:absolute;
 		font-size: 0.75rem;
-		background:rgba(255,255,255,.9);
-        box-shadow: rgba(0,0,0,.2) 1px 1px 9px;
+		color: #fff;
+		background:#212121c9;
+        box-shadow: rgba(0,0,0,.2) 1px 1px 2px;
         padding:.5rem;
-		transition: opacity .3s;
+		transition: opacity .5s;
+		border: 1px solid #ffffff;
 	}
 </style>
