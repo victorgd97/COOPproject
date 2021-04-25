@@ -54,10 +54,10 @@
 </div>
 
 <style>
-	h5 {
+	/* h5 {
 		margin: 0 0 .33rem 0;
 		font-size: .9rem;
-	}
+	} */
 	ul {
 		position: absolute;
 		margin: 0;
