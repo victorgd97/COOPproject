@@ -1,7 +1,7 @@
 <script>
 	import { LayerCake, Svg } from "layercake";
 
-	import Sankey from "./components/Sankey.svelte";
+	import Sankey from "./components/SankeyApp.svelte";
 
 	import data from "./data/data.js";
 	//imports for Choropleth map
@@ -260,6 +260,7 @@
 					at aliquam lorem aliquet eget.
 				</p>
 			</div>
+			<Sankey/>
 		</TabPanel>
 
 		<TabPanel>
