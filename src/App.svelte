@@ -248,7 +248,7 @@
 
 		<TabPanel>
 			<div class="description">
-				<h1>Canalització</h1>
+				<!-- <h1>Canalització</h1> -->
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					Curabitur diam eros, molestie viverra metus nec, aliquam
