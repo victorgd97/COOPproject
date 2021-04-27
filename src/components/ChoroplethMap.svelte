@@ -18,8 +18,8 @@
 
   let tooltipOptions, width, height;
 
-  $: land = feature(map, map.objects[geo]);
-  $: border = mesh(map, map.objects[geo], (a, b) => a !== b);
+  land = feature(map, map.objects[geo]);
+  border = mesh(map, map.objects[geo], (a, b) => a !== b);
   $: _projection = projection.fitSize([width, height], land);
   $: path = geoPath().projection(_projection);
 
