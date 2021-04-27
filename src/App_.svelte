@@ -41,7 +41,7 @@
 			};}
 		);
 	//let DataFiltered = selectedData;
-	let comar = true;
+	// let 
 
 	let palette = () => {
 		let _extent = extent(selectedData, (d) => d.AOD);
@@ -64,6 +64,7 @@
 	};
 
 	function filterGov(selectedGovLev,selectedYearAOD) {
+		console.log(selectedGovLev,selectedYearAOD );
 		{if (selectedGovLev === "Municipis" && selectedYearAOD ==="2015"){
 			selectedData = munData.map(d => {return {
 				Ens: d.Comarcas,
@@ -71,7 +72,7 @@
 				AOD: +d.AOD_2015
 					};}
 				);
-			comar = true;
+			
 			}
 		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2016"){
 			selectedData = munData.map(d => {return {
@@ -80,7 +81,7 @@
 				AOD: +d.AOD_2016
 					};}
 				);
-				comar = true;
+				
 			}
 		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2017"){
 			selectedData = munData.map(d => {return {
@@ -89,7 +90,7 @@
 				AOD: +d.AOD_2017
 					};}
 				);
-				comar = true;
+				
 			}
 		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2015"){
 			selectedData = comarData.map(d => {return {
@@ -98,7 +99,7 @@
 				AOD: +d.AOD_2015
 					};}
      			);
-				comar = true;
+				
 			} 
 		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2016"){
 			selectedData = comarData.map(d => {return {
@@ -107,7 +108,7 @@
 				AOD: +d.AOD_2016
 					};}
      			);
-				comar = true;
+				
 			} 
 		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2017"){
 			selectedData = comarData.map(d => {return {
@@ -116,7 +117,7 @@
 				AOD: +d.AOD_2017
 					};}
      			);
-				comar = true;
+				
 			} 
 		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2015"){
 			selectedData = provData.map(d => {return {
@@ -125,7 +126,7 @@
 				AOD: +d.AOD_2015
 					};}
      			);
-				comar = false;
+				
 			} 
 		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2016"){
 			selectedData = provData.map(d => {return {
@@ -134,7 +135,7 @@
 				AOD: +d.AOD_2016
 					};}
      			);
-				comar = false;
+				
 			}
 		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2017"){
 			selectedData = provData.map(d => {return {
@@ -143,9 +144,10 @@
 				AOD: +d.AOD_2017
 					};}
      			);
-				comar = false;
+				
 			}
 		}
+		console.log(selectedData);
 	}
 
 /* 	function filterAOD(d) {
@@ -212,16 +214,18 @@
 		</div>
 
 		<TabPanel>
-			 <select
-			bind:value={selectedGovLev}
-			on:change={filterGov(selectedGovLev,selectedYearAOD)}
-		>
-			{#each GovLevels as GovLev}
-				<option value={GovLev}>
-					{GovLev}
-				</option>
-			{/each}
-		</select>
+			 <!-- svelte-ignore a11y-no-onchange -->
+			<select
+				bind:value={selectedGovLev}
+				on:change={filterGov(selectedGovLev,selectedYearAOD)}
+			>
+				{#each GovLevels as GovLev}
+					<option value={GovLev}>
+						{GovLev}
+					</option>
+				{/each}
+			</select>
+			<!-- svelte-ignore a11y-no-onchange -->
 			<select
 				bind:value={selectedYearAOD}
 				on:change={filterGov(selectedGovLev,selectedYearAOD)}
@@ -248,18 +252,17 @@
 			<div id="mapidC">
 				<ChoroplethMap
 					data={selectedData}
-					map={comar
-					? CatalunyaCom
-					: CatalunyaProv}
-					geo={comar
-					? "comarquesWGS84(EPSG4326)"
-					: "provinciesWGS84(EPSG4326)"}
-					{comar}
+					map={selectedGovLev === "Provincies"
+					? CatalunyaProv 
+					: CatalunyaCom}
+					geo={selectedGovLev === "Provincies"
+					? "provinciesWGS84(EPSG4326)"
+					: "comarquesWGS84(EPSG4326)"}
 					scale={palette()}
 					{projection}
-					join={comar
-					? { data: "Codi", map: "COMARCA" }
-					: { data: "Codi", map: "CODIPROV" }}
+					join={selectedGovLev === "Provincies"
+					? { data: "Codi", map: "CODIPROV" }
+					: { data: "Codi", map: "COMARCA" } }
 					value="AOD"
 					legend={{ title: "", format: "" }}
 					layout="wide"
