@@ -61,7 +61,7 @@
 				"#90006c",
 			])
 			.domain([...Array(9)].map((_d, i) => min + d * i));
-	}; console.log(palette())
+	};
 
 	function filterGov(selectedGovLev,selectedYearAOD) {
 		{if (selectedGovLev === "Municipis" && selectedYearAOD ==="2015"){
@@ -71,7 +71,7 @@
 				AOD: +d.AOD_2015
 					};}
 				);
-			comar = true;
+				comar = true;
 			}
 		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2016"){
 			selectedData = munData.map(d => {return {

@@ -22,15 +22,15 @@
 		? mapWidth - width
 		: position[1];
 	
-	$: colors = scale.range();
-	$: extent = scale.domain();
-	$: max = extent[0] > extent[1] ? extent[0] : extent[1];
-	$: min = extent[0] < extent[1] ? extent[0] : extent[1];
-	$: d = (max-min) / colors.length;
-	$: values = [... Array(colors.length)].map((_d, i) => min + d * i);
-	$: bw = width / (max - min);
+	let colors = scale.range();
+	let extent = scale.domain();
+	let max = extent[8];
+	let min = extent[0];
+	let d = (max-min) / colors.length;
+	let values = [... Array(colors.length)].map((_d, i) => min + d * i);
+	let bw = width / (max - min);
 	
-	$: bandWidth = values.map((d, i) => {
+	let bandWidth = values.map((d, i) => {
 		return (i < values.length - 1)
 			? (values[i + 1] - d) * bw
 			: (max - d) *bw;
