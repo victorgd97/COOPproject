@@ -40,6 +40,7 @@
     "sirv-cli": "^1.0.0",
     "svelte-leafletjs": "^0.6.1",
     "svelte-tabs": "^1.1.0",
-    "topojson": "^3.0.2"
+    "topojson": "^3.0.2",
+    "vercel": "^22.0.1"
   }
 }
