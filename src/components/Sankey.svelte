@@ -1,6 +1,7 @@
 <script>
-	import { getContext } from 'svelte';
+	import { getContext, createEventDispatcher } from 'svelte';
 	import * as Sankey from 'd3-sankey';
+	import { raise } from 'layercake';
 
 	const { data, width, height } = getContext('LayerCake');
 	
@@ -35,7 +36,20 @@
 	$: link = Sankey.sankeyLinkHorizontal();
 
 	$: fontSize = $width <= 320 ? 8 : 12;
-	
+		/* --------------------------------------------
+	 * Here's how you would do cross-component hovers
+	 */
+	 const dispatch = createEventDispatcher();
+
+	 function handleMousemove(d) {
+		return function handleMousemoveFn(e) {
+			raise(this);
+			// When the element gets raised, it flashes 0,0 for a second so skip that
+			if (e.layerX !== 0 && e.layerY !== 0) {
+				dispatch('mousemove', { e, props: d });
+			}
+		}
+	}
 
 </script>
 
@@ -53,7 +67,9 @@
 				fill='none'
 				stroke={colorLinks(d)}
 				stroke-opacity='0.5'
-				stroke-width={d.width} 
+				stroke-width={d.width}
+				on:mouseover={(e) => dispatch('mousemove', { e, props: d })}
+				on:mousemove={handleMousemove(d)} 
 			/>
 			<text
 				x={(d.source.x0 + d.target.x0) / 2}
@@ -73,6 +89,8 @@
 				height={d.y1 - d.y0}
 				width={d.x1 - d.x0}
 				fill={colorNodes(d)} 
+				on:mouseover={(e) => dispatch('mousemove', { e, props: d })}
+				on:mousemove={handleMousemove(d)}
 				/>
 			<text
 				x={d.x0 < $width / 4 ? d.x1 + 6 : d.x0 - 6}

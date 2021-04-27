@@ -19,10 +19,15 @@
 			  :tipusActor.includes(d)? tipusActorColor
 			  : paisColor;
 	}
-  	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
-
 
 	let yes = true;
+
+	// add tooltips
+	import Tooltip from './SankeyTooltip.svelte';
+	import { format } from 'd3-format';
+	const addCommas = format(',');
+	let evt;
+	let hideTooltip = true;
 	
 </script>
 
@@ -49,6 +54,8 @@
 				<Sankey 
 					colorNodes={d => nodeColoring(d.id)}
 					colorLinks={d => '#e3e3e3'} 
+					on:mousemove={event => evt = hideTooltip= event}
+					on:mouseout={() => hideTooltip = true}
 				/>
 			</Svg>
 			<Html>
@@ -59,6 +66,29 @@
 					<span class="highlight" style="color:{paisColor}"> Pais </span> 
 				</div>
 			</Html>
+			<Html pointerEvents={false}>
+				{#if hideTooltip !== true}
+					<Tooltip {evt} let:detail>
+						{#each Object.entries(detail.props) as [key, value]}
+							<div class="row">
+								{#if key === 'value'}
+								<span>€ {addCommas(value)}</span> 
+								{/if}
+								<span class="tooltipLink"> 
+								{#if key === 'source'}
+								Donor:
+								{value.sourceLinks[0]['source']['id']}
+								{/if}
+								{#if key === 'target'}
+								Receiver:
+								{value.targetLinks[0]['target']['id']}
+								{/if}
+								</span>
+							</div>
+						{/each}
+					</Tooltip>
+				{/if}
+			</Html>			
 		</LayerCake>
 		{:else}
 		<LayerCake
@@ -68,6 +98,8 @@
 				<Sankey 
 					colorNodes={d => nodeColoring(d.id)}
 					colorLinks={d => '#e3e3e3'} 
+					on:mousemove={event => evt = hideTooltip= event}
+					on:mouseout={() => hideTooltip = true}
 				/>
 			</Svg>
 			<Html>
@@ -78,6 +110,32 @@
 					<span class="highlight" style="color:{paisColor}"> Pais </span> 
 				</div>
 			</Html>
+			<Html pointerEvents={false}>
+			{#if hideTooltip !== true}
+				<Tooltip
+					{evt}
+					let:detail
+				>
+					{#each Object.entries(detail.props) as [key, value]}
+						<div class="row">
+							{#if key === 'value'}
+							<span>€ {addCommas(value)}</span> 
+							{/if}
+							<span class="tooltipLink"> 
+							{#if key === 'source'}
+							Donor:
+							{value.sourceLinks[0]['source']['id']}
+							{/if}
+							{#if key === 'target'}
+	  						Receiver:
+							{value.targetLinks[0]['target']['id']}
+							{/if}
+							</span>
+						</div>
+					{/each}
+				</Tooltip>
+			{/if}
+		</Html>
 		</LayerCake>
 		{/if}
 	</div>

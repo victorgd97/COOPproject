@@ -3,6 +3,9 @@
 
 	import Sankey from "./components/SankeyApp.svelte";
 
+	let evt;
+	let hideTooltip = true;
+
 	import data from "./data/data.js";
 	//imports for Choropleth map
 	import munData from "./data/municipisPerComarca.json";
@@ -15,7 +18,6 @@
 	import { scaleQuantile } from "d3-scale";
 	import { extent } from "d3-array";
 
-	//	import data from './data-processing/sankey/output/data_ods.json'
 	import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
 
 	//imports for global map
