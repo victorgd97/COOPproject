@@ -61,7 +61,7 @@
 				"#90006c",
 			])
 			.domain([...Array(9)].map((_d, i) => min + d * i));
-	}; 
+	};
 
 	function filterGov(selectedGovLev,selectedYearAOD) {
 		{if (selectedGovLev === "Municipis" && selectedYearAOD ==="2015"){
@@ -71,7 +71,7 @@
 				AOD: +d.AOD_2015
 					};}
 				);
-			comar = true;
+				comar = true;
 			}
 		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2016"){
 			selectedData = munData.map(d => {return {
@@ -256,7 +256,7 @@
 						{projection}
 						join={{ data: "Codi", map: "COMARCA" }}
 						value="AOD"
-						legend={{ title: "", format: "" }}
+						legend={{ title: "", format: "0.00" }}
 						layout="wide"
 						/>
 				{/if}
@@ -270,7 +270,7 @@
 						{projection}
 						join={{ data: "Codi", map: "CODIPROV" }}
 						value="AOD"
-						legend={{ title: "", format: "" }}
+						legend={{ title: "", format: "0.00" }}
 						layout="wide"
 						/>
 				{/if}
