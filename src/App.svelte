@@ -43,8 +43,8 @@
 	//let DataFiltered = selectedData;
 	let comar = true;
 
-	let palette = () => {
-		let _extent = extent(selectedData, (d) => d.AOD);
+ 	let palette = () => {
+		let _extent = extent(comarData, (d) => d.AOD_2015);
 		let max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
 		let min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
 		let d = (max - min) / 9;
@@ -61,7 +61,7 @@
 				"#90006c",
 			])
 			.domain([...Array(9)].map((_d, i) => min + d * i));
-	};
+	}; 
 
 	function filterGov(d,f) {
 		selectedGovLev = d;
@@ -248,24 +248,34 @@
 				</p>
 			</div>
 			<div id="mapidC">
-				<ChoroplethMap
-					data={selectedData}
-					map={comar
-					? CatalunyaCom
-					: CatalunyaProv}
-					geo={comar
-					? "comarquesWGS84(EPSG4326)"
-					: "provinciesWGS84(EPSG4326)"}
-					{comar}
-					scale={palette()}
-					{projection}
-					join={comar
-					? { data: "Codi", map: "COMARCA" }
-					: { data: "Codi", map: "CODIPROV" }}
-					value="AOD"
-					legend={{ title: "", format: "" }}
-					layout="wide"
-				/>
+				{#if comar}
+					<ChoroplethMap
+						data={selectedData}
+						map={CatalunyaCom}
+						geo={"comarquesWGS84(EPSG4326)"}
+						{comar}
+						scale={palette()}
+						{projection}
+						join={{ data: "Codi", map: "COMARCA" }}
+						value="AOD"
+						legend={{ title: "", format: "" }}
+						layout="wide"
+						/>
+				{/if}
+				{#if comar === false}
+					<ChoroplethMap
+						data={selectedData}
+						map={CatalunyaProv}
+						geo={"provinciesWGS84(EPSG4326)"}
+						{comar}
+						scale={palette()}
+						{projection}
+						join={{ data: "Codi", map: "CODIPROV" }}
+						value="AOD"
+						legend={{ title: "", format: "" }}
+						layout="wide"
+						/>
+				{/if}
 			</div>
 		</TabPanel>
 
