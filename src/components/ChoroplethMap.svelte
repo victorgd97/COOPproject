@@ -14,16 +14,17 @@
   export let legend;
   export let projection;
   export let geo;
+  export let comar;
 
   let tooltipOptions, width, height;
 
-  const land = feature(map, map.objects[geo]);
-  const border = mesh(map, map.objects[geo], (a, b) => a !== b);
+  let land = feature(map, map.objects[geo]);
+  let border = mesh(map, map.objects[geo], (a, b) => a !== b);
   $: _projection = projection.fitSize([width, height], land);
   $: path = geoPath().projection(_projection);
 
   $: fill = (_id) => {
-    const d = data.find((d) => d[join.data] === _id);
+    let d = data.find((d) => d[join.data] === _id);
     return d !== undefined ? scale(get(d, value)) : "#E0E0E0";
   };
   $: handleHover = (e, _id) => {
@@ -31,10 +32,12 @@
     let y = e.offsetY;
     let visible = true;
 
-    const d = data.find((d) => d[join.data] === _id);
-    const tip =
+    let d = data.find((d) => d[join.data] === _id);
+    let tip =
       d !== undefined
-        ? "Comarca: " + d.Comarcas + "<br> AOD: " + d.AOD_2015
+        ? comar
+        ? "Comarca: " + d.Ens + "<br> AOD: " + d.AOD
+        : "Provincia: " + d.Ens + "<br> AOD: " + d.AOD
         : "";
     tooltipOptions = { x: x, y: y, tip: tip, visible: visible };
   };

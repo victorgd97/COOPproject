@@ -27,11 +27,27 @@
 	import dataTreemap from "./data/dataTreemap_all.json";
 
 	//Code for choropleth
-	const palette = () => {
-		const _extent = extent(comarData, (d) => d.AOD_2015);
-		const max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
-		const min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
-		const d = (max - min) / 9;
+	const projection = geoMercator();
+
+	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
+	let yearsAOD = ["2015","2016","2017"];
+	let GovLevels = ["Municipis","Comarques","Provincies"]
+	let selectedYearAOD;
+	let selectedGovLev;
+	let selectedData = munData.map(d => {return {
+		Ens: d.Comarcas,
+		Codi: d["Codi comarca"].toString(),
+		AOD: +d.AOD_2015, 
+			};}
+		);
+	//let DataFiltered = selectedData;
+	let comar = true;
+
+	let palette = () => {
+		let _extent = extent(selectedData, (d) => d.AOD);
+		let max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
+		let min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
+		let d = (max - min) / 9;
 		return scaleQuantile()
 			.range([
 				"#ffe461",
@@ -47,74 +63,99 @@
 			.domain([...Array(9)].map((_d, i) => min + d * i));
 	};
 
-	const projection = geoMercator();
-
-	comarData.map((d) => {
-		d.codi = d.Codi_comarca.toString();
-		return d;
-	});
-	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
-	/*	let yearsAOD = ["2015","2016","2017"];
-	let GovLevels = ["Municipis","Comarques","Provincies"]
-	let selectedYearAOD;
-	let selectedGovLev;
-	let selectedData = [];
-	let DataFiltered = [];
-	let topojson;
-	let comar = true;
-
- 	comar = comar ? false : true;
-
-	if (selectedGovLev === "Provincies"){
-		topojson = CatalunyaProv,
-		comar = false
-	}
-	else {
-		topojson = CatalunyaCom,
-		comar = true
-	}
-
-	function filterGov(d) {
+	function filterGov(d,f) {
 		selectedGovLev = d;
-		{if (selectedGovLev === "Municipis"){
+		selectedYearAOD = f;
+		{if (selectedGovLev === "Municipis" && selectedYearAOD ==="2015"){
 			selectedData = munData.map(d => {return {
 				Ens: d.Comarcas,
-				Codi: +d["Codi comarca"],
-				AOD_2015: +d.AOD_2015,
-				AOD_2016: +d.AOD_2016, 
-				AOD_2017: +d.AOD_2017
+				Codi: d["Codi comarca"].toString(),
+				AOD: +d.AOD_2015
 					};}
 				);
+				comar = true;
 			}
-		else if (selectedGovLev === "Comarques"){
+		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2016"){
+			selectedData = munData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: d["Codi comarca"].toString(),
+				AOD: +d.AOD_2016
+					};}
+				);
+				comar = true;
+			}
+		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2017"){
+			selectedData = munData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: d["Codi comarca"].toString(),
+				AOD: +d.AOD_2017
+					};}
+				);
+				comar = true;
+			}
+		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2015"){
 			selectedData = comarData.map(d => {return {
 				Ens: d.Comarcas,
-				Codi: +d["Codi comarca"],
-				AOD_2015: +d.AOD_2015,
-				AOD_2016: +d.AOD_2016, 
-				AOD_2017: +d.AOD_2017 
+				Codi: d["Codi_comarca"].toString(),
+				AOD: +d.AOD_2015
 					};}
      			);
+				comar = true;
 			} 
-		else if (selectedGovLev === "Provincies"){
+		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2016"){
+			selectedData = comarData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: d["Codi_comarca"].toString(),
+				AOD: +d.AOD_2016
+					};}
+     			);
+				comar = true;
+			} 
+		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2017"){
+			selectedData = comarData.map(d => {return {
+				Ens: d.Comarcas,
+				Codi: d["Codi_comarca"].toString(),
+				AOD: +d.AOD_2017
+					};}
+     			);
+				comar = true;
+			} 
+		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2015"){
 			selectedData = provData.map(d => {return {
 				Ens: d.Provincias,
-				Codi: +d["Codi provincia"],
-				AOD_2015: +d.AOD_2015,
-				AOD_2016: +d.AOD_2016, 
-				AOD_2017: +d.AOD_2017 
+				Codi: d["Codi provincia"],
+				AOD: +d.AOD_2015
 					};}
      			);
+				comar = false;
 			} 
-		} 
+		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2016"){
+			selectedData = provData.map(d => {return {
+				Ens: d.Provincias,
+				Codi: d["Codi provincia"],
+				AOD: +d.AOD_2016
+					};}
+     			);
+				comar = false;
+			}
+		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2017"){
+			selectedData = provData.map(d => {return {
+				Ens: d.Provincias,
+				Codi: d["Codi provincia"],
+				AOD: +d.AOD_2017
+					};}
+     			);
+				comar = false;
+			}
+		}
 	}
 
-	function filterAOD(d) {
+/* 	function filterAOD(d) {
 		selectedYearAOD = d;
 		{if (selectedYearAOD === "2015"){
 			DataFiltered = selectedData.map(d => {return {
 				Ens: d.Ens,
-				Codi: +d.Codi,
+				Codi: d.Codi,
 				AOD: +d.AOD_2015,
 					};}
 				);
@@ -122,7 +163,7 @@
 		else if (selectedYearAOD === "2016"){
 			DataFiltered = selectedData.map(d => {return {
 				Ens: d.Ens,
-				Codi: +d.Codi,
+				Codi: d.Codi,
 				AOD: +d.AOD_2016,
 					};}
 				);
@@ -130,13 +171,14 @@
 		else if (selectedYearAOD === "2017"){
 			DataFiltered = selectedData.map(d => {return {
 				Ens: d.Ens,
-				Codi: +d.Codi,
+				Codi: d.Codi,
 				AOD: +d.AOD_2017,
 					};}
 				);
 			}
-		} 
-	} */
+		}
+	}  */
+	
 	//Code for global map
 	Mapdata.map((d) => {
 		d.visible = true;
@@ -172,9 +214,9 @@
 		</div>
 
 		<TabPanel>
-			<!-- <select
+			 <select
 			bind:value={selectedGovLev}
-			on:change={filterGov(selectedGovLev)}
+			on:change={filterGov(selectedGovLev,selectedYearAOD)}
 		>
 			{#each GovLevels as GovLev}
 				<option value={GovLev}>
@@ -184,14 +226,14 @@
 		</select>
 			<select
 				bind:value={selectedYearAOD}
-				on:change={filterAOD(selectedYearAOD)}
+				on:change={filterGov(selectedGovLev,selectedYearAOD)}
 			>
 				{#each yearsAOD as yearAOD}
 					<option value={yearAOD}>
 						{yearAOD}
 					</option>
 				{/each}
-			</select> -->
+			</select> 
 			<div class="description">
 				<h1>Agents</h1>
 				<p>
@@ -207,13 +249,20 @@
 			</div>
 			<div id="mapidC">
 				<ChoroplethMap
-					data={comarData}
-					map={CatalunyaCom}
-					geo="comarquesWGS84(EPSG4326)"
+					data={selectedData}
+					map={comar
+					? CatalunyaCom
+					: CatalunyaProv}
+					geo={comar
+					? "comarquesWGS84(EPSG4326)"
+					: "provinciesWGS84(EPSG4326)"}
+					{comar}
 					scale={palette()}
 					{projection}
-					join={{ data: "codi", map: "COMARCA" }}
-					value="AOD_2015"
+					join={comar
+					? { data: "Codi", map: "COMARCA" }
+					: { data: "Codi", map: "CODIPROV" }}
+					value="AOD"
 					legend={{ title: "", format: "" }}
 					layout="wide"
 				/>
