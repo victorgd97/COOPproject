@@ -14,6 +14,7 @@
   export let legend;
   export let projection;
   export let geo;
+  export let comar;
 
   let tooltipOptions, width, height;
 
@@ -34,7 +35,9 @@
     let d = data.find((d) => d[join.data] === _id);
     let tip =
       d !== undefined
+        ? comar
         ? "Comarca: " + d.Ens + "<br> AOD: " + d.AOD
+        : "Provincia: " + d.Ens + "<br> AOD: " + d.AOD
         : "";
     tooltipOptions = { x: x, y: y, tip: tip, visible: visible };
   };

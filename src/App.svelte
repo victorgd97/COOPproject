@@ -34,9 +34,9 @@
 	let GovLevels = ["Municipis","Comarques","Provincies"]
 	let selectedYearAOD;
 	let selectedGovLev;
-	let selectedData = comarData.map(d => {return {
+	let selectedData = munData.map(d => {return {
 		Ens: d.Comarcas,
-		Codi: d["Codi_comarca"].toString(),
+		Codi: d["Codi comarca"].toString(),
 		AOD: +d.AOD_2015, 
 			};}
 		);
@@ -256,6 +256,7 @@
 					geo={comar
 					? "comarquesWGS84(EPSG4326)"
 					: "provinciesWGS84(EPSG4326)"}
+					{comar}
 					scale={palette()}
 					{projection}
 					join={comar
