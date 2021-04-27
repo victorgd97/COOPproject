@@ -35,7 +35,6 @@
 			? (values[i + 1] - d) * bw
 			: (max - d) *bw;
 	})
-	
 </script>
 
 <div class="legend" style="top: {t}px; left: {l}px">

@@ -61,7 +61,7 @@
 				"#90006c",
 			])
 			.domain([...Array(9)].map((_d, i) => min + d * i));
-	}; 
+	}; console.log(palette())
 
 	function filterGov(d,f) {
 		selectedGovLev = d;
@@ -258,7 +258,7 @@
 						{projection}
 						join={{ data: "Codi", map: "COMARCA" }}
 						value="AOD"
-						legend={{ title: "", format: "" }}
+						legend={{ title: "", format: "0.00" }}
 						layout="wide"
 						/>
 				{/if}
@@ -272,7 +272,7 @@
 						{projection}
 						join={{ data: "Codi", map: "CODIPROV" }}
 						value="AOD"
-						legend={{ title: "", format: "" }}
+						legend={{ title: "", format: "0.00" }}
 						layout="wide"
 						/>
 				{/if}
