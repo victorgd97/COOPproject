@@ -60,7 +60,9 @@
 </style>
 
 <g class="sankey-layer">
-	<g class='link-group'>
+	<g class='link-group'
+	on:mouseout={(e) => dispatch('mouseout')}
+	>
 		{#each sankeyData.links as d}
 			<path
 				d={link(d)}
@@ -81,7 +83,9 @@
 			</text> -->
 		{/each}
 	</g>
-	<g class='rect-group'>
+	<g class='rect-group'
+	on:mouseout={(e) => dispatch('mouseout')}
+	>
 		{#each sankeyData.nodes as d, i}
 			<rect
 				x={d.x0}

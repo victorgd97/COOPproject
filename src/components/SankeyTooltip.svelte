@@ -31,7 +31,7 @@
     <div
       class="tooltip"
       style="
-        top:{evt.detail.e.layerY - offset}px;
+        top:{evt.detail.e.layerY + (offset/2)}px;
         left:{evt.detail.e.layerX}px;
       "
     >
