@@ -71,14 +71,14 @@
 				on:mouseover={(e) => dispatch('mousemove', { e, props: d })}
 				on:mousemove={handleMousemove(d)} 
 			/>
-			<text
+			<!-- <text
 				x={(d.source.x0 + d.target.x0) / 2}
 				y={(d.y1 + d.y0) / 2}
 				dy="{(fontSize / 2) - 2}"
 				style="fill: {colorText(d)};
 							font-size: {fontSize}px;
 							text-anchor: middle">
-			</text>
+			</text> -->
 		{/each}
 	</g>
 	<g class='rect-group'>

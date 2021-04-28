@@ -44,13 +44,6 @@
 			<input type=checkbox bind:checked={yes}>
 			Hide Sense Dades, Unknown_TipusActor, Unknown_Area
 		</label>
-				
-		<div>
-			<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
-			<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
-			<span class="highlight" style="color:{areaColor}"> Area </span>|
-			<span class="highlight" style="color:{paisColor}"> Pais </span> 
-		</div>	
 	</div>
 	<div class="chart-container" style="height:80vh">
 		{#if yes}
@@ -65,6 +58,14 @@
 					on:mouseout={() => hideTooltip = true}
 				/>
 			</Svg>
+			<Html>
+				<div>
+					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+					<span class="highlight" style="color:{areaColor}"> Area </span>|
+					<span class="highlight" style="color:{paisColor}"> Pais </span> 
+				</div>
+			</Html>
 			<Html pointerEvents={false}>
 				{#if hideTooltip !== true}
 					<Tooltip {evt} let:detail>
@@ -101,6 +102,14 @@
 					on:mouseout={() => hideTooltip = true}
 				/>
 			</Svg>
+			<Html>
+				<div>
+					<span class="highlight" style="color:{govLevelColor}"> govLevel </span>|
+					<span class="highlight" style="color:{tipusActorColor}"> tipusActor </span>| 
+					<span class="highlight" style="color:{areaColor}"> Area </span>|
+					<span class="highlight" style="color:{paisColor}"> Pais </span> 
+				</div>
+			</Html>
 			<Html pointerEvents={false}>
 			{#if hideTooltip !== true}
 				<Tooltip
@@ -114,7 +123,7 @@
 							{/if}
 							<span class="tooltipLink"> 
 							{#if key === 'source'}
-							<span class='tooltipName'>Donor:</span>
+							Donor:
 							{value.sourceLinks[0]['source']['id']}
 							{/if}
 							{#if key === 'target'}
@@ -159,9 +168,5 @@
   label {
 	display: inline;
 	padding-left: 1em;
-  }
-
-  .tooltipName{
-	font-weight: bold;
   }
 </style>
