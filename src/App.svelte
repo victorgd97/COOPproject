@@ -348,12 +348,10 @@
 			<Treemap />
 		</TabPanel>
 	</Tabs>
-
 	<p class="footer">
 		Designed and developed by Núria Altimir, Spe Chen, Víctor Garcia and Santiago Salcido in the
 		<a href="http://www.mastervisualtoolsudg.com/" target="blank">
-			Master’s program in Visual Tools to Empower Citizens</a
-		>
+			Master’s program in Visual Tools to Empower Citizens</a>
 	</p>
 </main>
 

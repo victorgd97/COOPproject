@@ -55,8 +55,10 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
        padding: 1em;
        margin: 0 auto;
    }
-   .container { position: relative}
-   :global(.graphic) {
+   .container { 
+       position: relative;
+    }
+    :global(.graphic) {
        /* height:50vh; */
        margin-bottom:3rem;
    }
@@ -69,5 +71,7 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
        top:0;
        left:0;
    }
+
+   
    
 </style>
