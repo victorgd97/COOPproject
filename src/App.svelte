@@ -32,20 +32,21 @@
 	const projection = geoMercator();
 
 	//geo search for objects on topo and if we do not find the projection we could use geoTransverseMercator
-	let yearsAOD = ["2015","2016","2017"];
-	let GovLevels = ["Municipis","Comarques","Provincies"]
+	let yearsAOD = ["2015", "2016", "2017"];
+	let GovLevels = ["Municipis", "Comarques", "Provincies"];
 	let selectedYearAOD;
 	let selectedGovLev;
-	let selectedData = munData.map(d => {return {
-		Ens: d.Comarcas,
-		Codi: d["Codi comarca"].toString(),
-		AOD: +d.AOD_2015, 
-			};}
-		);
+	let selectedData = munData.map((d) => {
+		return {
+			Ens: d.Comarcas,
+			Codi: d["Codi comarca"].toString(),
+			AOD: +d.AOD_2015,
+		};
+	});
 	//let DataFiltered = selectedData;
 	let comar = true;
 
- 	let palette = () => {
+	let palette = () => {
 		let _extent = extent(comarData, (d) => d.AOD_2015);
 		let max = _extent[0] > _extent[1] ? _extent[0] : _extent[1];
 		let min = _extent[0] < _extent[1] ? _extent[0] : _extent[1];
@@ -65,92 +66,118 @@
 			.domain([...Array(9)].map((_d, i) => min + d * i));
 	};
 
-	function filterGov(selectedGovLev,selectedYearAOD) {
-		{if (selectedGovLev === "Municipis" && selectedYearAOD ==="2015"){
-			selectedData = munData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi comarca"].toString(),
-				AOD: +d.AOD_2015
-					};}
-				);
+	function filterGov(selectedGovLev, selectedYearAOD) {
+		{
+			if (selectedGovLev === "Municipis" && selectedYearAOD === "2015") {
+				selectedData = munData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi comarca"].toString(),
+						AOD: +d.AOD_2015,
+					};
+				});
 				comar = true;
-			}
-		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2016"){
-			selectedData = munData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi comarca"].toString(),
-				AOD: +d.AOD_2016
-					};}
-				);
+			} else if (
+				selectedGovLev === "Municipis" &&
+				selectedYearAOD === "2016"
+			) {
+				selectedData = munData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi comarca"].toString(),
+						AOD: +d.AOD_2016,
+					};
+				});
 				comar = true;
-			}
-		else if (selectedGovLev === "Municipis" && selectedYearAOD ==="2017"){
-			selectedData = munData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi comarca"].toString(),
-				AOD: +d.AOD_2017
-					};}
-				);
+			} else if (
+				selectedGovLev === "Municipis" &&
+				selectedYearAOD === "2017"
+			) {
+				selectedData = munData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi comarca"].toString(),
+						AOD: +d.AOD_2017,
+					};
+				});
 				comar = true;
-			}
-		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2015"){
-			selectedData = comarData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi_comarca"].toString(),
-				AOD: +d.AOD_2015
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Comarques" &&
+				selectedYearAOD === "2015"
+			) {
+				selectedData = comarData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi_comarca"].toString(),
+						AOD: +d.AOD_2015,
+					};
+				});
 				comar = true;
-			} 
-		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2016"){
-			selectedData = comarData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi_comarca"].toString(),
-				AOD: +d.AOD_2016
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Comarques" &&
+				selectedYearAOD === "2016"
+			) {
+				selectedData = comarData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi_comarca"].toString(),
+						AOD: +d.AOD_2016,
+					};
+				});
 				comar = true;
-			} 
-		else if (selectedGovLev === "Comarques" && selectedYearAOD ==="2017"){
-			selectedData = comarData.map(d => {return {
-				Ens: d.Comarcas,
-				Codi: d["Codi_comarca"].toString(),
-				AOD: +d.AOD_2017
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Comarques" &&
+				selectedYearAOD === "2017"
+			) {
+				selectedData = comarData.map((d) => {
+					return {
+						Ens: d.Comarcas,
+						Codi: d["Codi_comarca"].toString(),
+						AOD: +d.AOD_2017,
+					};
+				});
 				comar = true;
-			} 
-		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2015"){
-			selectedData = provData.map(d => {return {
-				Ens: d.Provincias,
-				Codi: d["Codi provincia"],
-				AOD: +d.AOD_2015
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Provincies" &&
+				selectedYearAOD === "2015"
+			) {
+				selectedData = provData.map((d) => {
+					return {
+						Ens: d.Provincias,
+						Codi: d["Codi provincia"],
+						AOD: +d.AOD_2015,
+					};
+				});
 				comar = false;
-			} 
-		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2016"){
-			selectedData = provData.map(d => {return {
-				Ens: d.Provincias,
-				Codi: d["Codi provincia"],
-				AOD: +d.AOD_2016
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Provincies" &&
+				selectedYearAOD === "2016"
+			) {
+				selectedData = provData.map((d) => {
+					return {
+						Ens: d.Provincias,
+						Codi: d["Codi provincia"],
+						AOD: +d.AOD_2016,
+					};
+				});
 				comar = false;
-			}
-		else if (selectedGovLev === "Provincies" && selectedYearAOD ==="2017"){
-			selectedData = provData.map(d => {return {
-				Ens: d.Provincias,
-				Codi: d["Codi provincia"],
-				AOD: +d.AOD_2017
-					};}
-     			);
+			} else if (
+				selectedGovLev === "Provincies" &&
+				selectedYearAOD === "2017"
+			) {
+				selectedData = provData.map((d) => {
+					return {
+						Ens: d.Provincias,
+						Codi: d["Codi provincia"],
+						AOD: +d.AOD_2017,
+					};
+				});
 				comar = false;
 			}
 		}
 	}
 
-/* 	function filterAOD(d) {
+	/* 	function filterAOD(d) {
 		selectedYearAOD = d;
 		{if (selectedYearAOD === "2015"){
 			DataFiltered = selectedData.map(d => {return {
@@ -178,7 +205,7 @@
 			}
 		}
 	}  */
-	
+
 	//Code for global map
 	Mapdata.map((d) => {
 		d.visible = true;
@@ -214,37 +241,32 @@
 		</div>
 
 		<TabPanel>
-			 <select
-			bind:value={selectedGovLev}
-			on:change={filterGov(selectedGovLev,selectedYearAOD)}
-		>
-			{#each GovLevels as GovLev}
-				<option value={GovLev}>
-					{GovLev}
-				</option>
-			{/each}
-		</select>
+			<select
+				bind:value={selectedGovLev}
+				on:change={filterGov(selectedGovLev, selectedYearAOD)}
+			>
+				{#each GovLevels as GovLev}
+					<option value={GovLev}>
+						{GovLev}
+					</option>
+				{/each}
+			</select>
 			<select
 				bind:value={selectedYearAOD}
-				on:change={filterGov(selectedGovLev,selectedYearAOD)}
+				on:change={filterGov(selectedGovLev, selectedYearAOD)}
 			>
 				{#each yearsAOD as yearAOD}
 					<option value={yearAOD}>
 						{yearAOD}
 					</option>
 				{/each}
-			</select> 
+			</select>
 			<div class="description">
-				<h1>Agents</h1>
+				<!-- <h1>Agents</h1> -->
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Curabitur diam eros, molestie viverra metus nec, aliquam
-					porttitor purus. Donec porttitor urna sit amet ex consequat,
-					id viverra ipsum porta. Sed nulla ante, pellentesque eget
-					aliquet eu, convallis quis turpis. Proin dignissim lacus
-					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
-					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
-					at aliquam lorem aliquet eget.
+					<b>Choropleth map of Catalunya.</b> The unit of interest are
+					the administrative divisions and the interest is the geographical
+					distribution of ODA expenses makes a map a natural choice.
 				</p>
 			</div>
 			<div id="mapidC">
@@ -260,7 +282,7 @@
 						value="AOD"
 						legend={{ title: "", format: "0.00" }}
 						layout="wide"
-						/>
+					/>
 				{/if}
 				{#if comar === false}
 					<ChoroplethMap
@@ -274,23 +296,18 @@
 						value="AOD"
 						legend={{ title: "", format: "0.00" }}
 						layout="wide"
-						/>
+					/>
 				{/if}
 			</div>
 		</TabPanel>
 
 		<TabPanel>
 			<div class="description">
-				<h1>Països</h1>
+				<!-- <h1>Països</h1> -->
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Curabitur diam eros, molestie viverra metus nec, aliquam
-					porttitor purus. Donec porttitor urna sit amet ex consequat,
-					id viverra ipsum porta. Sed nulla ante, pellentesque eget
-					aliquet eu, convallis quis turpis. Proin dignissim lacus
-					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
-					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
-					at aliquam lorem aliquet eget.
+					<b>Global map that shows the information per country.</b> The
+					information is on what country the money is used. Details at
+					the level of project.
 				</p>
 			</div>
 			<select bind:value={selectedYear} on:change={filter(selectedYear)}>
@@ -309,36 +326,35 @@
 			<div class="description">
 				<!-- <h1>Canalització</h1> -->
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Curabitur diam eros, molestie viverra metus nec, aliquam
-					porttitor purus. Donec porttitor urna sit amet ex consequat,
-					id viverra ipsum porta. Sed nulla ante, pellentesque eget
-					aliquet eu, convallis quis turpis. Proin dignissim lacus
-					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
-					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
-					at aliquam lorem aliquet eget.
+					<b>Sankey diagram between donors and receivers.</b> This represents
+					the flow and distribution of ODA expenses
 				</p>
 			</div>
-			<Sankey/>
+			<Sankey />
 		</TabPanel>
 
 		<TabPanel>
 			<div class="description">
-				<h1>Actuacions</h1>
+				<!-- <h1>Actuacions</h1> -->
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Curabitur diam eros, molestie viverra metus nec, aliquam
-					porttitor purus. Donec porttitor urna sit amet ex consequat,
-					id viverra ipsum porta. Sed nulla ante, pellentesque eget
-					aliquet eu, convallis quis turpis. Proin dignissim lacus
-					vitae metus dignissim, sed vehicula tortor faucibus. Nulla
-					facilisi. Nunc ac sem purus. Integer sodales iaculis lorem,
-					at aliquam lorem aliquet eget.
+					<b>Treemap (with transition to global map)</b> Area of squares
+					is proportional to expenditure. Shows the distribution according
+					to the Sustainable development goals. Uses the official color
+					coding plus extra greys for data with no allocation.. Arranged
+					as to look like a stacked bar where the individual projects can
+					be seen.
 				</p>
 			</div>
 			<Treemap />
 		</TabPanel>
 	</Tabs>
+
+	<p class="footer">
+		Designed and developed by Núria Altimir, Spe Chen, Víctor Garcia and Santiago Salcido in the
+		<a href="http://www.mastervisualtoolsudg.com/" target="blank">
+			Master’s program in Visual Tools to Empower Citizens</a
+		>
+	</p>
 </main>
 
 <style>
@@ -367,6 +383,15 @@
 	.tabnavbar {
 		background-color: #ffffff;
 		box-shadow: 0px 0px 5px #bdbdbd;
+	}
+	.footer {
+		text-align: center;
+		font-size: 0.8em;
+		width: 75%;
+		margin: auto;
+		padding-top: 5em;
+		padding-bottom: 5em;
+		color: gray;
 	}
 
 	/* main {
