@@ -70,19 +70,19 @@
 					<Tooltip {evt} let:detail>
 						{#each Object.entries(detail.props) as [key, value]}
 							<div class="row">
-								{#if key === 'value'}
-								<span>€ {addCommas(value)}</span> 
-								{/if}
 								<span class="tooltipLink"> 
-								{#if key === 'source'}
-								Donor:
-								{value.sourceLinks[0]['source']['id']}
-								{/if}
-								{#if key === 'target'}
-								Receiver:
-								{value.targetLinks[0]['target']['id']}
-								{/if}
+									{#if key === 'source'}
+									<span class='tooltipName'>Donor:</span>
+									{value.sourceLinks[0]['source']['id']}
+									{/if}
+									{#if key === 'target'}
+									<span class='tooltipName'>Receiver:</span>
+									{value.targetLinks[0]['target']['id']}
+									{/if}
 								</span>
+								{#if key === 'value'}
+									<span>€ {addCommas(value)}</span> 
+								{/if}
 							</div>
 						{/each}
 					</Tooltip>
@@ -109,19 +109,19 @@
 				>
 					{#each Object.entries(detail.props) as [key, value]}
 						<div class="row">
-							{#if key === 'value'}
-							<span>€ {addCommas(value)}</span> 
-							{/if}
 							<span class="tooltipLink"> 
-							{#if key === 'source'}
-							<span class='tooltipName'>Donor:</span>
-							{value.sourceLinks[0]['source']['id']}
-							{/if}
-							{#if key === 'target'}
-	  						Receiver:
-							{value.targetLinks[0]['target']['id']}
-							{/if}
+								{#if key === 'source'}
+								<span class='tooltipName'>Donor:</span>
+								{value.sourceLinks[0]['source']['id']}
+								{/if}
+								{#if key === 'target'}
+								<span class='tooltipName'>Receiver:</span>
+								{value.targetLinks[0]['target']['id']}
+								{/if}
 							</span>
+							{#if key === 'value'}
+								<span>€ {addCommas(value)}</span> 
+							{/if}
 						</div>
 					{/each}
 				</Tooltip>
@@ -162,6 +162,10 @@
   }
 
   .tooltipName{
-	font-weight: bold;
+	  font-weight: bold;
+  }
+
+  .tooltipLink{
+	  margin-bottom: 1rem;
   }
 </style>
