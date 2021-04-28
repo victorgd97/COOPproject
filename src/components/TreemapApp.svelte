@@ -57,11 +57,11 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
    }
    .container { position: relative}
    :global(.graphic) {
-       height:50vh;
+       /* height:50vh; */
        margin-bottom:3rem;
    }
    :global(.map) {
-       height:50vh;
+       /* height:50vh; */
        width: 200vh;
    }
    :global(.absolute) {

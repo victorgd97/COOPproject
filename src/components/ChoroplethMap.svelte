@@ -52,7 +52,7 @@
 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ipsum bibendum at vulputate. Volutpat blandit cum sit ornare. Magna augue gravida mi a dolor in at urna purus. Facilisi sed quisque neque, ac quam orci. </div> -->
 
 <div
-  class="graphic {layout}"
+  class="graphicMap {layout}"
   bind:clientWidth={width}
   bind:clientHeight={height}
 >
@@ -108,5 +108,9 @@
   }
   .selection:hover {
     stroke-opacity: 1;
+  }
+
+  .graphicMap {
+     height:50vh;
   }
 </style>
